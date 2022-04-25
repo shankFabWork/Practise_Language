@@ -1,0 +1,2 @@
+conda activate django_2
+python manage.py runserver

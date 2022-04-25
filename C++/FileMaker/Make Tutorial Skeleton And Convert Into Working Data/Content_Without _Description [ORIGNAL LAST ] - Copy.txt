@@ -1,0 +1,175 @@
+# Make folder structure with empty files and folder [ make "DATA" folder in parent directory ]
+# this command will automatically make "DATA" folder 
+# So u need not to make "DATA" folder
+
+mkdir DATA
+shopt -s globstar 
+for f in **/*; do
+  mkdir -p "$(pwd)/DATA/${f%/*}"   
+  touch "$(pwd)/DATA/$f"           
+done
+cd DATA
+# Now keep on running all the below commands in "DATA" folder
+
+
+# IF Want to replace your video extension to learning extension
+#In my case it is .cpp (But my video extension is mp4 and mkv)
+
+
+new_extension=".java"
+prev_ext1=".mp4"
+new_ext1=$new_extension
+prev_ext2=".mkv"
+new_ext2=$new_extension
+prev_ext3=".m4v"
+new_ext3=$new_extension
+prev_ext4=".ts"
+new_ext4=$new_extension
+
+shopt -s globstar
+for file in "$(pwd)"/**/*$prev_ext1; do
+  mv "$file" "${file%$prev_ext1}$new_ext1"
+done
+
+shopt -s globstar
+for file in "$(pwd)"/**/*$prev_ext2; do
+  mv "$file" "${file%$prev_ext2}$new_ext2"
+done
+
+shopt -s globstar
+for file in "$(pwd)"/**/*$prev_ext3; do
+  mv "$file" "${file%$prev_ext3}$new_ext3"
+done
+
+shopt -s globstar
+for file in "$(pwd)"/**/*$prev_ext4; do
+  mv "$file" "${file%$prev_ext4}$new_ext4"
+done
+
+# remove useless files extension
+remove_prev_ext1=".srt"
+remove_prev_ext2=".zip"
+remove_prev_ext3=".html"
+shopt -s globstar
+for file in "$(pwd)"/**/*$remove_prev_ext1; do
+  rm "$file"
+done
+shopt -s globstar
+for file in "$(pwd)"/**/*$remove_prev_ext2; do
+  rm "$file"
+done
+shopt -s globstar
+for file in "$(pwd)"/**/*$remove_prev_ext3; do
+  rm "$file"
+done
+
+
+
+# -------------------------------------------
+# remove dot from Only folder name with "_"
+for i in *.*; do
+    [ -d "$i" ] || continue
+    mv -- "$i" "${i//./_}"
+done
+# -------------------------------------------
+
+
+# -------------------------------------------
+
+# Remove only files inside all the folder with "_" [ run it in parent directory ]
+for dir in */; 
+do
+    cd "${dir}";
+
+        # remove '.' to "_"
+        for f in *.*; 
+        do 
+        pre="${f%.*}"; 
+        suf="${f##*.}"; 
+        mv -i -- "$f" "${pre//./_}.${suf}"; 
+        done
+
+        # remove spaces to "_"
+        for f in *.*; 
+        do 
+        mv "$f" `echo $f | tr ' ' '_'`; 
+        done
+
+        # remove () to "_"
+        for f in *.*; 
+        do 
+        mv "$f" `echo $f | tr '()' '_'`; 
+        done
+
+        # put "_" in starting of file name
+        # by default java name can not start with a number
+        for f in *.*; 
+        do 
+        mv "$f" "_${f}"; 
+        done
+
+        # Write snippets inside your ".java" file
+        for f in *.java;
+        do
+        file_name=$(basename $f)
+        echo "import java.util.*;" >> "$f"
+        echo "public class ${file_name%%.*}" >> "$f"
+        echo "{" >> "$f"
+        echo "    public static void main(String[] args)" >> "$f"
+        echo "    {" >> "$f"
+        echo "        System.out.println();" >> "$f"
+        echo "    }" >> "$f"
+        echo "}" >> "$f"
+        done
+
+        # replace "&" to "-" in all ".java" file only 
+        # it will work on java file only 
+        for f in *.java;
+        do
+        all="${f//'&'/'-'}"
+        mv "$f" "$all"
+        done
+
+    cd ..;
+done
+# -------------------------------------------
+
+
+# -------------------------------------------
+# for learning purpose
+# Get File name from file path
+# a="file/path/a/b"
+# b=$(basename $a)
+# echo $b
+
+# get file name before extension
+# file_name="asda.java"
+# a=${file_name%%.*}
+
+# str='foo bar fux'
+# one="${str/'f'/.}"     
+# [ output : ]
+# [ '.oo.bar fux' ]
+# all="${str//'f'/.}"
+# [ output : ]
+# [ '.oo.bar .ux' ]
+# echo $one
+# echo $all
+
+-- remove extension if not java
+for dir in */; 
+do
+  cd "${dir}";
+  for f in *.*; 
+  do 
+    pre="${f%.*}"; 
+    suf="${f##*.}";
+    if [ "$suf" != "java" ]
+      then
+        rm "$f"
+        echo $suf
+    fi 
+  done
+  cd ..
+done
+

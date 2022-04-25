@@ -1,0 +1,71 @@
+{% extends "../base.html" %}
+
+{% load static %}
+
+{% block head %}
+<link rel="stylesheet" href="{% static 'css/home.css' %}">
+<link rel="stylesheet" href="{% static 'css/text_animate.css' %}">
+{% endblock %}
+
+
+{% block content %}
+
+
+<div class="jumbotron jumbotron-fluid height100p banner" id="home" style="">
+  <div class="container h100">
+    <div class="contentBox h100">
+      <div>
+          <p style="font-size:50px;color:white;text-decoration:underline;">Welcome to</p>
+          <!-- Text Animation -->
+          <svg viewBox="0 0 1800 300" style="background-color: black;">
+            <symbol id="s-text">
+              <text text-anchor="middle" x="50%" y="60%">Loan Prediction System</text>
+              </symbol>
+          
+              <g class = "g-ants">
+                  <use xlink:href="#s-text" class="text-copy"></use>
+                  <use xlink:href="#s-text" class="text-copy"></use>
+                  <use xlink:href="#s-text" class="text-copy"></use>
+                  <use xlink:href="#s-text" class="text-copy"></use>
+                  <use xlink:href="#s-text" class="text-copy"></use>
+              </g>
+          </svg>
+          <p style="font-size:50px;color:white;text-decoration:underline;">Using Machine Learning</p>
+
+        <a href="{% url 'predict' %}" class="btn btnD1">Get Started</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="sec1" id="explore" hidden>
+  <div class="container">
+    <div class="row">
+      <div class="offset-sm-2 col-sm-8">
+        <div class="headerText text-center">
+          <h2>Explore The Galaxy</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Laboriosam iusto sequi dignissimos odit aut deserunt minus fuga
+            ad repellat fugiat magnam blanditiis voluptatibus voluptas
+            officiis, dolorum asperiores non commodi, alias reiciendis!
+            Obcaecati optio eveniet velit qui doloremque fugiat aspernatur
+            magni!
+          </p>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+
+
+
+
+            
+
+  
+
+
+{% endblock %}  

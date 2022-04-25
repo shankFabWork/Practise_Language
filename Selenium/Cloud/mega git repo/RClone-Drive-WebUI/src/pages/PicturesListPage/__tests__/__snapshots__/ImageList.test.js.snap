@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImageList should match snapshots when the api call succeeds 1`] = `
+<body>
+  <div />
+</body>
+`;
+
+exports[`ImageList should render skeleton when api is being loaded 1`] = `
+<body>
+  <div>
+    <div
+      style="overflow: visible; height: 0px; width: 0px;"
+    />
+    <div
+      class="resize-triggers"
+    >
+      <div
+        class="expand-trigger"
+      >
+        <div
+          style="width: 1px; height: 1px;"
+        />
+      </div>
+      <div
+        class="contract-trigger"
+      />
+    </div>
+  </div>
+</body>
+`;

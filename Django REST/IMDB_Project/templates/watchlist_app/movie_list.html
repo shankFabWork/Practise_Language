@@ -1,0 +1,17 @@
+{% extends '../base.html' %}
+
+{% block content %}
+
+<table style>
+    {% for data in all_movie %}
+        <tr>
+            <td><a href="/movie/movie_data/{{data.id}}">{{data.name}}</a></td>
+            <td>{{data.description}}</td>
+            <td>{{data.active}}</td>
+        </tr>
+    {% endfor %}
+</table>
+
+<br />
+
+{% endblock %}

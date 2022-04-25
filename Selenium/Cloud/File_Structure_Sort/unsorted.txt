@@ -1,0 +1,10 @@
+root/[DesireCourse.Net] Udemy - Spark and Python for Big Data with PySpark_3/[DesireCourse.Net] Udemy - Spark and Python for Big Data with PySpark/14. K-means Clustering
+root/[DesireCourse.Net] Udemy - Spark and Python for Big Data with PySpark_3/[DesireCourse.Net] Udemy - Spark and Python for Big Data with PySpark/15. Collaborative Filtering for Recommender Systems
+root/[DesireCourse.Net] Udemy - Spark and Python for Big Data with PySpark_3
+root/[DesireCourse.Net] Udemy - Spark and Python for Big Data with PySpark_3/[DesireCourse.Net] Udemy - Spark and Python for Big Data with PySpark/13. Decision Trees and Random Forests
+root/[DesireCourse.Net] Udemy - Spark and Python for Big Data with PySpark_3/[DesireCourse.Net] Udemy - Spark and Python for Big Data with PySpark/16. Natural Language Processing
+root/[DesireCourse.Net] Udemy - Spark and Python for Big Data with PySpark_3/[DesireCourse.Net] Udemy - Spark and Python for Big Data with PySpark/18. Bonus
+root/[DesireCourse.Net] Udemy - Spark and Python for Big Data with PySpark_3/[DesireCourse.Net] Udemy - Spark and Python for Big Data with PySpark/17. Spark Streaming with Python
+root/[DesireCourse.Net] Udemy - Spark and Python for Big Data with PySpark_3/[DesireCourse.Net] Udemy - Spark and Python for Big Data with PySpark/12. Logistic Regression
+root/[DesireCourse.Net] Udemy - Spark and Python for Big Data with PySpark_3/[DesireCourse.Net] Udemy - Spark and Python for Big Data with PySpark/11. Linear Regression
+root/[DesireCourse.Net] Udemy - Spark and Python for Big Data with PySpark_3/[DesireCourse.Net] Udemy - Spark and Python for Big Data with PySpark

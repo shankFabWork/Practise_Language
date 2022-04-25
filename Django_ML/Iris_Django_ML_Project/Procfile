@@ -1,0 +1,1 @@
+web: gunicorn Iris_Django_ML_Project.wsgi --log-file -

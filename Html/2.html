@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+
+  
+  <form >
+    <input type="text" id="no1" />
+    
+    <input type="text" id="no2" />
+    <button type="submit" onclick="getData()">
+      Submit
+    </button>
+  </form>
+  
+  <script>
+    function getData()
+    {
+      var a = document.getElementById("no1")
+      var b = document.getElementById("no2")
+      console.log(parseInt(a)+parseInt(b))
+      return;
+    }
+  </script>
+</body>
+</html>

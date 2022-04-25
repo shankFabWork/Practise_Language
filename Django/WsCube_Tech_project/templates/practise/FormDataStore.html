@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bootstrap Card</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      </head>
+<body>
+
+    <form method="POST">
+        {% csrf_token %}
+        <input type="text" name="name" />
+        <br />
+        <input type="text" name="age" />
+        <br />
+        <button type="submit">Submit</button>
+    </form>
+    <br />
+    {{name}}
+    <br />
+    {{age}}
+    <br />
+    {{msg}}
+
+
+</body>
+</html>

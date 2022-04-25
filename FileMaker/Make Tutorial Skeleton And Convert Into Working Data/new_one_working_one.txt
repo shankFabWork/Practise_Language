@@ -1,0 +1,194 @@
+# Remember : Code do not work in single
+# You have to run code task by task
+
+# U need not to make "DATA" folder
+
+shopt -s globstar 
+for f in **/*; do
+  mkdir -p "$(pwd)/DATA/${f%/*}"   
+  touch "$(pwd)/DATA/$f"           
+done
+
+cd DATA
+
+# IF Want to replace your video extension to learning extension
+#In my case it is .cpp (But my video extension is mp4 and mkv)
+new_extension=".java"
+prev_ext1=".mp4"
+new_ext1=$new_extension
+prev_ext2=".mkv"
+new_ext2=$new_extension
+prev_ext3=".m4v"
+new_ext3=$new_extension
+prev_ext4=".ts"
+new_ext4=$new_extension
+
+shopt -s globstar
+for file in "$(pwd)"/**/*$prev_ext1; do
+  mv "$file" "${file%$prev_ext1}$new_ext1"
+done
+
+shopt -s globstar
+for file in "$(pwd)"/**/*$prev_ext2; do
+  mv "$file" "${file%$prev_ext2}$new_ext2"
+done
+
+shopt -s globstar
+for file in "$(pwd)"/**/*$prev_ext3; do
+  mv "$file" "${file%$prev_ext3}$new_ext3"
+done
+
+shopt -s globstar
+for file in "$(pwd)"/**/*$prev_ext4; do
+  mv "$file" "${file%$prev_ext4}$new_ext4"
+done
+
+# remove all file except from .java
+for dir in */; 
+do
+  cd "${dir}";
+  for f in *.*; 
+  do 
+    pre="${f%.*}"; 
+    suf="${f##*.}";
+    if [ "$suf" != "java" ]
+      then
+        rm "$f"
+        echo $suf
+    fi 
+  done
+  cd ..
+done
+
+# remove dot from Only folder name with "_"
+for f in *; do mv "$f" "${f//./_}"; done
+
+for f in *; do mv "$f" "${f//'&'/'_and_'}"; done
+
+for f in *; do mv "$f" "${f//' '/'_'}"; done
+
+for f in *; do mv "$f" "${f//'__'/'_'}"; done
+
+for f in *; do mv "$f" "${f//'__'/'_'}"; done
+
+# remove .,_,__,space with _ for files
+for dir in */; 
+do
+    cd "${dir}";
+    # remove dot from file name with "_"
+    for f in *.*; 
+    do 
+    pre="${f%.*}"; 
+    suf="${f##*.}"; 
+    mv -i -- "$f" "${pre//./_}.${suf}"; 
+    done
+
+    # remove space from file name with "_"
+    for f in *.*; 
+    do 
+    pre="${f%.*}"; 
+    suf="${f##*.}"; 
+    mv -i -- "$f" "${pre// /_}.${suf}"; 
+    done
+
+    # remove "()" from folder name with "_"
+    for f in *.*; 
+    do 
+    pre="${f%.*}"; 
+    suf="${f##*.}"; 
+    mv -i -- "$f" "${pre//()/_}.${suf}"; 
+    done
+
+    # remove "&" from folder name with "_"
+    for f in *.*; 
+    do 
+    pre="${f%.*}"; 
+    suf="${f##*.}"; 
+    mv -i -- "$f" "${pre//&/_}.${suf}"; 
+    done
+
+    # put "_" in front of all files
+    for f in *.*; 
+    do 
+    mv -i -- "$f" "_$f"; 
+    done
+
+    # remove "__" from folder name with "_"
+    for f in *.*; 
+    do 
+    pre="${f%.*}"; 
+    suf="${f##*.}"; 
+    mv -i -- "$f" "${pre//__/_}.${suf}"; 
+    done
+
+    # remove "-studyfever" from folder name with ""
+    for i in *
+    do
+    mv "$i" "`echo $i | sed 's/-studyfever//'`"
+    done
+
+    # remove "%" from folder name with "_"
+    for f in *.*; 
+    do 
+    pre="${f%.*}"; 
+    suf="${f##*.}"; 
+    mv -i -- "$f" "${pre//%/_}.${suf}"; 
+    done
+
+    # remove "-" from folder name with "_"
+    for f in *.*; 
+    do 
+    pre="${f%.*}"; 
+    suf="${f##*.}"; 
+    mv -i -- "$f" "${pre//-/_}.${suf}"; 
+    done
+
+    # remove "__" from folder name with "_"
+    for f in *.*; 
+    do 
+    pre="${f%.*}"; 
+    suf="${f##*.}"; 
+    mv -i -- "$f" "${pre//__/_}.${suf}"; 
+    done
+
+    # remove "__" from folder name with "_"
+    for f in *.*; 
+    do 
+    pre="${f%.*}"; 
+    suf="${f##*.}"; 
+    mv -i -- "$f" "${pre//__/_}.${suf}"; 
+    done
+
+    # remove "__" from folder name with "_"
+    for f in *.*; 
+    do 
+    pre="${f%.*}"; 
+    suf="${f##*.}"; 
+    mv -i -- "$f" "${pre//__/_}.${suf}"; 
+    done
+
+
+    cd ..
+done
+
+# Write default content  in java
+for dir in */; 
+do
+    cd "${dir}";
+
+    for f in *.java;
+    do
+    file_name=$(basename $f)
+    echo "import java.util.*;" >> "$f"
+    echo "" >> "$f"
+    echo "public class ${file_name%%.*}" >> "$f"
+    echo "{" >> "$f"
+    echo "    public static void main(String[] args)" >> "$f"
+    echo "    {" >> "$f"
+    echo "        System.out.println();" >> "$f"
+    echo "    }" >> "$f"
+    echo "}" >> "$f"
+    done
+
+    cd ..
+done

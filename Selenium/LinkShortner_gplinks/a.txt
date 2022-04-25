@@ -1,0 +1,106 @@
+900,140
+900,950
+
+pyautogui.scroll(-10000)
+x_pos = 900
+
+# Open/Download [ Correct ]
+for i in range(820,920,10):
+    driver.switch_to.window(driver.window_handles[0])
+    pyautogui.scroll(-10000)
+    pyautogui.moveTo(x=x_pos, y=i)
+    pyautogui.click()
+
+# Open - Continue [Correct]
+for i in range(330,380,10):
+    driver.switch_to.window(driver.window_handles[0])
+    pyautogui.scroll(-10000)
+    pyautogui.moveTo(x=x_pos, y=i)
+    pyautogui.click()
+
+pyautogui.scroll(-1000)
+time.sleep(12)
+
+# Open/Download [ Correct ]
+for i in range(820,920,10):
+    driver.switch_to.window(driver.window_handles[0])
+    pyautogui.scroll(-10000)
+    pyautogui.moveTo(x=x_pos, y=i)
+    pyautogui.click()
+
+# Open - Continue [Correct]
+for i in range(330,380,10):
+    driver.switch_to.window(driver.window_handles[0])
+    pyautogui.scroll(-10000)
+    pyautogui.moveTo(x=x_pos, y=i)
+    pyautogui.click()
+
+pyautogui.scroll(-1000)
+time.sleep(12)
+
+# Unlock Link & Get Link
+for i in range(260,340,10):
+    driver.switch_to.window(driver.window_handles[0])
+    pyautogui.scroll(-10000)
+    pyautogui.moveTo(x=x_pos, y=i)
+    pyautogui.click()
+
+# Unlock Link & Get Link
+for i in range(260,340,10):
+    driver.switch_to.window(driver.window_handles[0])
+    pyautogui.scroll(-10000)
+    pyautogui.moveTo(x=x_pos, y=i)
+    pyautogui.click()
+    
+time.sleep(20)
+
+
+# Unlock Link & Get Link
+for i in range(260,340,10):
+    driver.switch_to.window(driver.window_handles[0])
+    pyautogui.scroll(-10000)
+    pyautogui.moveTo(x=x_pos, y=i)
+    pyautogui.click()
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Open/Continue
+for i in range(280,340,10):
+    driver.switch_to.window(driver.window_handles[0])
+    pyautogui.scroll(-10000)
+    pyautogui.moveTo(x=x_pos, y=i)
+    pyautogui.click()
+
+# Unlock Link & Get Link
+for i in range(260,340,10):
+    driver.switch_to.window(driver.window_handles[0])
+    pyautogui.scroll(-10000)
+    pyautogui.moveTo(x=x_pos, y=i)
+    pyautogui.click()
+
+# Unlock Link [Last Correct ]
+for i in range(195,250,10):
+    driver.switch_to.window(driver.window_handles[0])
+    pyautogui.scroll(-10000)
+    pyautogui.moveTo(x=x_pos, y=i)
+    pyautogui.click()
+
+
+
+
+
+pyautogui.moveTo(x=1635, y=195)
+pyautogui.click()
+
+driver.switch_to.window(driver.window_handles[0])
+

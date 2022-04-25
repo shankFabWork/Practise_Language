@@ -1,0 +1,11 @@
+.container
+{
+    display: block;
+    margin: auto;
+}
+
+.item
+{
+    background-color: green;
+    margin: 50px;
+}

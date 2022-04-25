@@ -1,0 +1,346 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UploadingRow should match snapshot given a directory 1`] = `
+<body>
+  <div>
+    <tr
+      class="MuiTableRow-root filelist-table-base-row css-1q1u3t4-MuiTableRow-root"
+      tabindex="0"
+    >
+      <td
+        class="MuiTableCell-root MuiTableCell-sizeMedium filelist-table-base-row__table-cell css-bsph2u-MuiTableCell-root"
+      >
+        <div
+          class="filelist-table-base-row__file-cell"
+          data-testid="2021"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="FolderIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M10 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2h-8l-2-2z"
+            />
+          </svg>
+          <div>
+            2021
+          </div>
+        </div>
+      </td>
+      <td
+        class="MuiTableCell-root MuiTableCell-sizeMedium filelist-table-base-row__table-cell css-bsph2u-MuiTableCell-root"
+      >
+        <div
+          class="uploading-row__status-text-wrapper"
+        >
+          <span
+            class="MuiCircularProgress-root MuiCircularProgress-indeterminate MuiCircularProgress-colorPrimary css-18lrjg1-MuiCircularProgress-root"
+            role="progressbar"
+            style="width: 20px; height: 20px;"
+          >
+            <svg
+              class="MuiCircularProgress-svg css-1idz92c-MuiCircularProgress-svg"
+              viewBox="22 22 44 44"
+            >
+              <circle
+                class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate css-176wh8e-MuiCircularProgress-circle"
+                cx="44"
+                cy="44"
+                fill="none"
+                r="20.2"
+                stroke-width="3.6"
+              />
+            </svg>
+          </span>
+          <span>
+            Uploading...
+          </span>
+        </div>
+      </td>
+      <td
+        class="MuiTableCell-root MuiTableCell-sizeMedium filelist-table-base-row__table-cell css-bsph2u-MuiTableCell-root"
+      >
+        -
+      </td>
+    </tr>
+  </div>
+</body>
+`;
+
+exports[`UploadingRow should match snapshot given a file 1`] = `
+<body>
+  <div>
+    <tr
+      class="MuiTableRow-root filelist-table-base-row css-1q1u3t4-MuiTableRow-root"
+      tabindex="0"
+    >
+      <td
+        class="MuiTableCell-root MuiTableCell-sizeMedium filelist-table-base-row__table-cell css-bsph2u-MuiTableCell-root"
+      >
+        <div
+          class="filelist-table-base-row__file-cell"
+          data-testid="dog.png"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="DescriptionIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"
+            />
+          </svg>
+          <div>
+            dog.png
+          </div>
+        </div>
+      </td>
+      <td
+        class="MuiTableCell-root MuiTableCell-sizeMedium filelist-table-base-row__table-cell css-bsph2u-MuiTableCell-root"
+      >
+        <div
+          class="uploading-row__status-text-wrapper"
+        >
+          <span
+            class="MuiCircularProgress-root MuiCircularProgress-indeterminate MuiCircularProgress-colorPrimary css-18lrjg1-MuiCircularProgress-root"
+            role="progressbar"
+            style="width: 20px; height: 20px;"
+          >
+            <svg
+              class="MuiCircularProgress-svg css-1idz92c-MuiCircularProgress-svg"
+              viewBox="22 22 44 44"
+            >
+              <circle
+                class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate css-176wh8e-MuiCircularProgress-circle"
+                cx="44"
+                cy="44"
+                fill="none"
+                r="20.2"
+                stroke-width="3.6"
+              />
+            </svg>
+          </span>
+          <span>
+            Uploading...
+          </span>
+        </div>
+      </td>
+      <td
+        class="MuiTableCell-root MuiTableCell-sizeMedium filelist-table-base-row__table-cell css-bsph2u-MuiTableCell-root"
+      >
+        -
+      </td>
+    </tr>
+  </div>
+</body>
+`;
+
+exports[`UploadingRow should match snapshot given job status is ERROR 1`] = `
+<body>
+  <div>
+    <tr
+      class="MuiTableRow-root filelist-table-base-row css-1q1u3t4-MuiTableRow-root"
+      tabindex="0"
+    >
+      <td
+        class="MuiTableCell-root MuiTableCell-sizeMedium filelist-table-base-row__table-cell css-bsph2u-MuiTableCell-root"
+      >
+        <div
+          class="filelist-table-base-row__file-cell"
+          data-testid="dog.png"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="DescriptionIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"
+            />
+          </svg>
+          <div>
+            dog.png
+          </div>
+        </div>
+      </td>
+      <td
+        class="MuiTableCell-root MuiTableCell-sizeMedium filelist-table-base-row__table-cell css-bsph2u-MuiTableCell-root"
+      >
+        Upload failed
+      </td>
+      <td
+        class="MuiTableCell-root MuiTableCell-sizeMedium filelist-table-base-row__table-cell css-bsph2u-MuiTableCell-root"
+      >
+        -
+      </td>
+    </tr>
+  </div>
+</body>
+`;
+
+exports[`UploadingRow should match snapshot given job status is ONGOING 1`] = `
+<body>
+  <div>
+    <tr
+      class="MuiTableRow-root filelist-table-base-row css-1q1u3t4-MuiTableRow-root"
+      tabindex="0"
+    >
+      <td
+        class="MuiTableCell-root MuiTableCell-sizeMedium filelist-table-base-row__table-cell css-bsph2u-MuiTableCell-root"
+      >
+        <div
+          class="filelist-table-base-row__file-cell"
+          data-testid="dog.png"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="DescriptionIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"
+            />
+          </svg>
+          <div>
+            dog.png
+          </div>
+        </div>
+      </td>
+      <td
+        class="MuiTableCell-root MuiTableCell-sizeMedium filelist-table-base-row__table-cell css-bsph2u-MuiTableCell-root"
+      >
+        <div
+          class="uploading-row__status-text-wrapper"
+        >
+          <span
+            class="MuiCircularProgress-root MuiCircularProgress-indeterminate MuiCircularProgress-colorPrimary css-18lrjg1-MuiCircularProgress-root"
+            role="progressbar"
+            style="width: 20px; height: 20px;"
+          >
+            <svg
+              class="MuiCircularProgress-svg css-1idz92c-MuiCircularProgress-svg"
+              viewBox="22 22 44 44"
+            >
+              <circle
+                class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate css-176wh8e-MuiCircularProgress-circle"
+                cx="44"
+                cy="44"
+                fill="none"
+                r="20.2"
+                stroke-width="3.6"
+              />
+            </svg>
+          </span>
+          <span>
+            Uploading...
+          </span>
+        </div>
+      </td>
+      <td
+        class="MuiTableCell-root MuiTableCell-sizeMedium filelist-table-base-row__table-cell css-bsph2u-MuiTableCell-root"
+      >
+        -
+      </td>
+    </tr>
+  </div>
+</body>
+`;
+
+exports[`UploadingRow should match snapshot given job status is SUCCESS 1`] = `
+<body>
+  <div>
+    <tr
+      class="MuiTableRow-root filelist-table-base-row css-1q1u3t4-MuiTableRow-root"
+      tabindex="0"
+    >
+      <td
+        class="MuiTableCell-root MuiTableCell-sizeMedium filelist-table-base-row__table-cell css-bsph2u-MuiTableCell-root"
+      >
+        <div
+          class="filelist-table-base-row__file-cell"
+          data-testid="dog.png"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="DescriptionIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"
+            />
+          </svg>
+          <div>
+            dog.png
+          </div>
+        </div>
+      </td>
+      <td
+        class="MuiTableCell-root MuiTableCell-sizeMedium filelist-table-base-row__table-cell css-bsph2u-MuiTableCell-root"
+      >
+        Uploaded just now
+      </td>
+      <td
+        class="MuiTableCell-root MuiTableCell-sizeMedium filelist-table-base-row__table-cell css-bsph2u-MuiTableCell-root"
+      >
+        -
+      </td>
+    </tr>
+  </div>
+</body>
+`;
+
+exports[`UploadingRow should update snapshot when file status updates 1`] = `
+<body>
+  <div>
+    <tr
+      class="MuiTableRow-root filelist-table-base-row css-1q1u3t4-MuiTableRow-root"
+      tabindex="0"
+    >
+      <td
+        class="MuiTableCell-root MuiTableCell-sizeMedium filelist-table-base-row__table-cell css-bsph2u-MuiTableCell-root"
+      >
+        <div
+          class="filelist-table-base-row__file-cell"
+          data-testid="dog.png"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="DescriptionIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"
+            />
+          </svg>
+          <div>
+            dog.png
+          </div>
+        </div>
+      </td>
+      <td
+        class="MuiTableCell-root MuiTableCell-sizeMedium filelist-table-base-row__table-cell css-bsph2u-MuiTableCell-root"
+      >
+        Uploaded just now
+      </td>
+      <td
+        class="MuiTableCell-root MuiTableCell-sizeMedium filelist-table-base-row__table-cell css-bsph2u-MuiTableCell-root"
+      >
+        -
+      </td>
+    </tr>
+  </div>
+</body>
+`;

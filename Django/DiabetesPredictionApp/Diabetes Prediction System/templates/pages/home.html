@@ -1,0 +1,28 @@
+{% extends "../base.html" %}
+
+{% load static %}
+
+{% block header %}
+<!-- <link rel="stylesheet" href="{% static 'css/button.css' %}"> -->
+{% endblock %}
+
+
+{% block content %}
+
+<div class="container">
+    <div class="vertical-center">
+        <h1> This is home page </h1>
+        <br />
+        <br />
+        {% url 'predict' as predict %}
+        <a href="{% url 'predict' %}" style="text-decoration: none;">
+            <button class="button-18" role="button">
+            Let's get Started
+            </button>
+        </a>
+    </div>
+</div>
+
+
+
+{% endblock %}  

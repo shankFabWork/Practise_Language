@@ -1,0 +1,46 @@
+Find Sheet Resolution=>
+    Go to file -> new -> pixels
+    A4 Pixels =>
+        Width - 2480 px
+        Height - 3508 px
+
+
+        Biggest Line - 
+            2480-
+
+        4 = 3+1
+        4/100*3508 = 140.32
+        3/100*3508 = 105.24
+        1/100*3508 = 35.08
+
+        Bottom Line =
+            2/100*2480 = 49.6
+            3508-49.6 = 3458.4
+
+        1st Horizontal Line =
+            Y-axis = 750 px
+        Text -> Myriad Pro
+        Text Size -> 20
+        Text and Line Distance -> 80 px
+
+
+Guide/Ruler -> Ctrl + R 
+To group layers -> Ctrl + G 
+To ungroup them -> Shift + Ctrl + G
+Edit Image Size -> Ctrl + T
+Lock Layer -> Ctrl + /
+Merge Layer -> Ctrl + E
+
+Remove Blue Lines/Guides -> 
+    View -> Clear Guides
+    Show -> Guides
+
+Reset ->
+    Edit -> Preferences -> General -> "Reset Preferences On Quit"
+
+For custom width ->
+    Properties -> Tranform -> Click on Lock/Link Button
+
+Show/Hide Icons/Properties/Layers -> Tab
+     
+Move Layer up/down/left/right Fast -> Shoft + (up/down/left/right)

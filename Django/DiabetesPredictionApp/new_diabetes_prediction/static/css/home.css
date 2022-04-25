@@ -1,0 +1,51 @@
+/* ...............................................Banner CSS...................................................... */
+
+.banner{
+    background-image: url("../img/diabetes_1.jpg");
+    background-color: transparent;
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px 0;
+    background-attachment: fixed;
+    margin-bottom: 100px;
+}
+.banner-content h1 {
+    font-size: 65px;
+    margin-bottom: 30px;
+}
+.banner-content p {
+    font-size: 24px;
+}
+#battun-1 {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #00aeef;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    border-radius: 7px;
+    margin-top: 50px;
+    transition: .5s;
+    border: 3px solid #00aeef;
+}
+#battun-1:hover{
+    border: 3px solid #00aeef;
+    background: none;
+    color: #00aeef;
+}
+#battun-2{
+    display: inline-block;
+    padding: 10px 30px;
+    border: 3px solid #00aeef;
+    text-decoration: none;
+    color: #00aeef;
+    font-size: 25px;
+    border-radius: 7px;
+    margin-left: 27px;
+    transition: .5s;
+}
+#battun-2:hover{
+    background-color: #00aeef;
+    color: white;
+}

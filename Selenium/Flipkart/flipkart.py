@@ -1,0 +1,18 @@
+import time
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+
+driver = webdriver.Chrome(executable_path="C:\EV_Files\ChromeDriver\chromedriver.exe")
+# driver.implicitly_wait(20)
+
+driver.maximize_window()
+
+driver.get("https://www.flipkart.com/")
+driver.find_element_by_class_name("_2KpZ6l _2doB4z").click()
+driver.find_element_by_class_name("_3704LK").click()
+driver.find_element_by_class_name("_3704LK").send_keys("mobiles")
+driver.find_element_by_xpath('//*[@id="container"]/div/div[1]/div[1]/div[2]/div[2]/form/div/button').click()
+driver.find_element_by_xpath('//*[@id="container"]/div/div[3]/div[1]/div[1]/div/div[1]/div/section[7]/div[2]/div/div[1]/div/label/div[1]').click()
+# driver.find_element_by_class_name("_24_Dny").click()
+# driver.find_element_by_class_name("_2KpZ6l _2doB4z").click()
+

@@ -1,0 +1,44 @@
+name: Node CI
+
+on:
+  [push, pull_request]
+
+jobs:
+  build:
+
+    strategy:
+      matrix:
+        platform: [ubuntu-latest, macos-latest, windows-latest]
+        node-version: [8.x, 10.x, 12.x]
+    runs-on: ${{ matrix.platform }}
+
+    steps:
+      - uses: actions/checkout@v1
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: npm install, build, and test
+        run: |
+          npm ci
+          npm run test:cov
+          npm run build
+        env:
+          CI: true
+  coverage:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Use Node.js 12.0
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+      - name: Test Coverage
+        run: |
+          npm ci
+          npm run test:cov        
+      - name: Coveralls GitHub Action
+        if:  ${{ success() }}
+        uses: coverallsapp/github-action@v1.1.1
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}

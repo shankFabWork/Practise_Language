@@ -1,0 +1,103 @@
+{% extends "../base.html" %}
+
+{% load static %}
+
+{% block head %}
+<link rel="stylesheet" href="{% static 'css/predict.css' %}" />
+{% endblock %}
+
+
+{% block content %}
+
+<br />
+<div class="row">
+    <div class="col-md-12">
+        <form action="{% url 'predict' %}" method="POST">
+            {% csrf_token %}    
+            <b><h2> Welcome to Prediction Page </h2></b>
+            <br />
+            <br />
+        
+        <fieldset>
+          
+          <legend>Please fill all the following information</legend>
+        
+          <label for="name">Gender:</label>
+          <!-- <input type="text" id="name" name="Gender" /> -->
+          <select name="Gender">
+            <option selected="selected" disabled>None</option>
+            <option value="1">Male</option>
+            <option value="0">Female</option>
+           </select>
+          
+          <label for="name">Married:</label>
+          <!-- <input type="text" id="name" name="Married" /> -->
+          <select name="Married">
+            <option selected="selected" disabled>None</option>
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+          </select>
+
+          <label for="name">Dependents:</label>
+          <!-- <input type="text" id="name" name="Dependents" /> -->
+          <select name="Dependents">
+            <option selected="selected" disabled>None</option>
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3+</option>
+          </select>
+
+
+
+          <label for="name">Education:</label>
+          <!-- <input type="text" id="name" name="Education" /> -->
+          <select name="Education">
+            <option selected="selected" disabled>None</option>
+            <option value="1">Graduate</option>
+            <option value="0">Not Graduate</option>
+          </select>
+
+
+          <label for="name">Self_Employed:</label>
+          <!-- <input type="text" id="name" name="Self_Employed" /> -->
+          <select name="Self_Employed">
+            <option selected="selected" disabled>None</option>
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+          </select>
+
+          <label for="name">ApplicantIncome:</label>
+          <input type="text" id="name" name="ApplicantIncome" />
+          
+          <label for="name">CoapplicantIncome:</label>
+          <input type="text" id="name" name="CoapplicantIncome" />
+          
+          <label for="name">LoanAmount:</label>
+          <input type="text" id="name" name="LoanAmount" />
+          
+          <label for="name">Loan_Amount_Term:</label>
+          <input type="text" id="name" name="Loan_Amount_Term" />
+          
+          <label for="name">Credit_History:</label>
+          <input type="text" id="name" name="Credit_History" />
+          
+          <label for="name">Property_Area:</label>
+          <!-- <input type="text" id="name" name="Property_Area" />           -->
+          <select name="Property_Area">
+            <option selected="selected" disabled>None</option>
+            <option value="0">Rural</option>
+            <option value="1">Semiurban</option>
+            <option value="2">Urban</option>
+          </select>
+
+
+         </fieldset>
+       
+         <button type="submit">Submit</button>        
+       </form>
+        </div>
+      </div>
+      
+
+{% endblock %}

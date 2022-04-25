@@ -1,0 +1,228 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginPage should match snapshot 1`] = `
+<body>
+  <div>
+    <div
+      class="login-page MuiBox-root css-0"
+    >
+      <div
+        class="login-page-header"
+      >
+        <span
+          class="MuiSwitch-root MuiSwitch-sizeSmall css-dnh7b9-MuiSwitch-root"
+        >
+          <span
+            class="MuiSwitch-switchBase MuiSwitch-colorPrimary MuiButtonBase-root MuiSwitch-switchBase MuiSwitch-colorPrimary PrivateSwitchBase-root css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase"
+          >
+            <input
+              class="MuiSwitch-input PrivateSwitchBase-input css-1m9pwf3"
+              type="checkbox"
+            />
+            <span
+              class="MuiSwitch-thumb css-jsexje-MuiSwitch-thumb"
+            />
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </span>
+          <span
+            class="MuiSwitch-track css-1yjjitx-MuiSwitch-track"
+          />
+        </span>
+      </div>
+      <div
+        class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root login-page-form css-1v5z4dq-MuiPaper-root-MuiCard-root"
+      >
+        <form>
+          <div
+            class="MuiCardHeader-root css-185gdzj-MuiCardHeader-root"
+          >
+            <div
+              class="MuiCardHeader-content css-1qbkelo-MuiCardHeader-content"
+            >
+              <span
+                class="MuiTypography-root MuiTypography-h5 MuiCardHeader-title css-1qvr50w-MuiTypography-root"
+              >
+                Login
+              </span>
+              <span
+                class="MuiTypography-root MuiTypography-body1 MuiCardHeader-subheader css-nrdprl-MuiTypography-root"
+              >
+                <span
+                  class=""
+                >
+                  Enter your RClone info to get started
+                </span>
+              </span>
+            </div>
+          </div>
+          <div
+            class="MuiCardContent-root login-page-form__contents css-46bh2p-MuiCardContent-root"
+          >
+            <div
+              class="MuiFormControl-root MuiTextField-root login-page-form__text-field css-1u3bzj6-MuiFormControl-root-MuiTextField-root"
+            >
+              <label
+                class="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-root MuiFormLabel-colorPrimary Mui-required css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root"
+                data-shrink="false"
+              >
+                RClone RC Endpoint
+                <span
+                  aria-hidden="true"
+                  class="MuiInputLabel-asterisk MuiFormLabel-asterisk css-wgai2y-MuiFormLabel-asterisk"
+                >
+                   
+                  *
+                </span>
+              </label>
+              <div
+                class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-formControl css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root"
+              >
+                <input
+                  aria-invalid="false"
+                  class="MuiOutlinedInput-input MuiInputBase-input css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input"
+                  data-testid="endpoint-field"
+                  name="endpoint"
+                  placeholder="Ex: http://localhost:5572"
+                  required=""
+                  type="text"
+                  value=""
+                />
+                <fieldset
+                  aria-hidden="true"
+                  class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+                >
+                  <legend
+                    class="css-173wfxe"
+                  >
+                    <span>
+                      RClone RC Endpoint
+                       
+                      *
+                    </span>
+                  </legend>
+                </fieldset>
+              </div>
+            </div>
+            <div
+              class="MuiFormControl-root MuiTextField-root login-page-form__text-field css-1u3bzj6-MuiFormControl-root-MuiTextField-root"
+            >
+              <label
+                class="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-root MuiFormLabel-colorPrimary Mui-required css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root"
+                data-shrink="false"
+              >
+                Username
+                <span
+                  aria-hidden="true"
+                  class="MuiInputLabel-asterisk MuiFormLabel-asterisk css-wgai2y-MuiFormLabel-asterisk"
+                >
+                   
+                  *
+                </span>
+              </label>
+              <div
+                class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-formControl css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root"
+              >
+                <input
+                  aria-invalid="false"
+                  class="MuiOutlinedInput-input MuiInputBase-input css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input"
+                  data-testid="username-field"
+                  name="username"
+                  required=""
+                  type="text"
+                  value=""
+                />
+                <fieldset
+                  aria-hidden="true"
+                  class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+                >
+                  <legend
+                    class="css-173wfxe"
+                  >
+                    <span>
+                      Username
+                       
+                      *
+                    </span>
+                  </legend>
+                </fieldset>
+              </div>
+            </div>
+            <div
+              class="MuiFormControl-root MuiTextField-root login-page-form__text-field css-1u3bzj6-MuiFormControl-root-MuiTextField-root"
+            >
+              <label
+                class="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-root MuiFormLabel-colorPrimary Mui-required css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root"
+                data-shrink="false"
+              >
+                Password
+                <span
+                  aria-hidden="true"
+                  class="MuiInputLabel-asterisk MuiFormLabel-asterisk css-wgai2y-MuiFormLabel-asterisk"
+                >
+                   
+                  *
+                </span>
+              </label>
+              <div
+                class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-formControl css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root"
+              >
+                <input
+                  aria-invalid="false"
+                  class="MuiOutlinedInput-input MuiInputBase-input css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input"
+                  data-testid="password-field"
+                  name="password"
+                  required=""
+                  type="password"
+                  value=""
+                />
+                <fieldset
+                  aria-hidden="true"
+                  class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+                >
+                  <legend
+                    class="css-173wfxe"
+                  >
+                    <span>
+                      Password
+                       
+                      *
+                    </span>
+                  </legend>
+                </fieldset>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+          >
+            <button
+              class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButtonBase-root  css-sghohy-MuiButtonBase-root-MuiButton-root"
+              data-testid="login-button"
+              tabindex="0"
+              type="submit"
+            >
+              Login
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root  css-1e6y48t-MuiButtonBase-root-MuiButton-root"
+              data-testid="help-button"
+              tabindex="0"
+              type="button"
+            >
+              Help
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+`;

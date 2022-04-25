@@ -1,0 +1,152 @@
+{% extends "../base.html" %} {% load static %} {% block head %}
+<link rel="stylesheet" href="{% static 'css/each_recent_results.css' %}" />
+{% endblock %} {% block content %}
+
+<div class="box">
+    <div id="overlay">
+        <div class="image">
+            <div class="trick"></div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="vertical-center">
+
+        <div class="container">
+            <h1 class="table_head">User Information</h1>
+            <div class="table-1">
+              <table>
+                <tbody>
+
+                    <tr>
+                        <th><h1>Information</h1></th>
+                        <th><h1>Value</h1></th>
+                    </tr>
+
+                  <tr>
+                    <td data-th="Block">Name</td>
+                    <td data-th="Element">{{request.user.username}}</td>
+                  </tr>
+
+                  <tr>
+                    <td data-th="Block">Email ID</td>
+                    <td data-th="Element">{{request.user.email}}</td>
+                  </tr>
+
+                  <tr>
+                    <td data-th="Block">About</td>
+                    <td data-th="Element">{{request.user.profile.about}}</td>
+                  </tr>
+
+                  <tr>
+                    <td data-th="Block">Result Published Date</td>
+                    <td data-th="Element">{{each_result_data.pub_date.date}}</td>
+                  </tr>
+
+                </tbody>
+              </table>
+            </div>
+        </div>
+
+
+
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="vertical-center">
+
+        <div class="container">
+            <h1  class="table_head">Result Data</h1>
+            <div class="table-1">
+              <table>
+                <tbody>
+
+                  <tr>
+                    <th><h1>Parameters</h1></th>
+                    <th><h1>Value</h1></th>
+                  </tr>
+
+                  <tr>
+                    <td data-th="Block">Pregnancies</td>
+                    <td data-th="Element">{{each_result_data.Pregnancies}}</td>
+                  </tr>
+
+                  <tr>
+                    <td data-th="Block">Glucose</td>
+                    <td data-th="Element">{{each_result_data.Glucose}}</td>
+                  </tr>
+
+                  <tr>
+                    <td data-th="Block">Blood_Pressure</td>
+                    <td data-th="Element">{{each_result_data.Blood_Pressure}}</td>
+                  </tr>
+
+                  <tr>
+                    <td data-th="Block">Skin_Thickness</td>
+                    <td data-th="Element">{{each_result_data.Skin_Thickness}}</td>
+                  </tr>
+
+                  <tr>
+                    <td data-th="Block">Insulin</td>
+                    <td data-th="Element">{{each_result_data.Insulin}}</td>
+                  </tr>
+
+                  <tr>
+                    <td data-th="Block">Bmi_val</td>
+                    <td data-th="Element">{{each_result_data.Bmi_val}}</td>
+                  </tr>
+
+                  <tr>
+                    <td data-th="Block">Diabetes_Pedigree_Function</td>
+                    <td data-th="Element">{{each_result_data.Diabetes_Pedigree_Function}}</td>
+                  </tr>
+
+                  <tr>
+                    <td data-th="Block">Age</td>
+                    <td data-th="Element">{{each_result_data.Age}}</td>
+                  </tr>
+
+                  <tr>
+                      <td data-th="Block" >Result</td>
+                      {% if each_result_data.Result == "Positive" %}
+                        <td data-th="Element" style="background-color:red;color:black;" >{{each_result_data.Result}}</td>  
+                      {% else %}
+                        <td data-th="Element" style="background-color:green;color:black;">{{each_result_data.Result}}</td>  
+                      {% endif %}
+                  </tr>
+                  <tr>
+                    {% if each_result_data.Result == "Positive" %}
+                      <td data-th="Element" style="background-color:red;color:black;">
+                        you have diabetes suggested articles 
+                      </td> 
+                      <td>
+                        <a href="https://www.webmd.com/diabetes/taking-care-your-diabetes-every-day" target="blank">Click Here</a>
+                      </td>  
+                    {% else %}
+                    <td data-th="Element" style="background-color:green;color:black;">
+                     Congratulation you are Diabetes free 
+                    </td> 
+                    <td>
+                      <a href="{% url 'recent_results' %}">Recent Results</a>
+                    </td>  
+                    {% endif %}
+                </tr>
+
+                </tbody>
+              </table>
+            </div>
+        </div>
+
+
+
+    </div>
+</div>
+
+
+
+
+{% endblock %}

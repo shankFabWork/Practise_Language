@@ -1,0 +1,4 @@
+sdelete -p 3 -r -s e:\secret
+sdelete -p 3 -r -s D:\Practise_Language\delete_fast\sun
+
+sdelete -p 3 -r -s D:\Practise_Language\.git

@@ -1,0 +1,17 @@
+Sender: support+joker_will_remain_king_work=1secmail.org@mega.nz
+To: joker_will_remain_king_work@1secmail.org
+Subject: MEGA Email Verification Required
+Date: 2022-01-21 09:55:18
+Content: joker_will_remain_king_work@1secmail.org
+
+You have one more step remaining to activate your MEGA account.
+
+
+Click on the link below to verify your email address:
+
+https://mega.nz/#confirmQ29uZmlybUNvZGVWMmDbgw05BQAFqKKSWc4GgWpva2VyX3dpbGxfcmVtYWluX2tpbmdfd29ya0Axc2VjbWFpbC5vcmcJam9rZXIga2luZyosoVPAib3b
+
+Best regards,
+
+— Team MEGA
+

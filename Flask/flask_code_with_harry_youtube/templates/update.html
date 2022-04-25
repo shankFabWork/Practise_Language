@@ -1,0 +1,50 @@
+{% extends "./base.html" %}
+
+{% block body %}
+    {{each_data.sno}}
+    {{each_data.title}}
+    {{each_data.desc}}{{each_data.desc}}
+    {{each_data.date_created}}
+
+    <div class="container">
+        <form action="/update/{{each_data.sno}}" method="POST">
+            <div class="mb-3 text-center">
+                <label for="exampleInputEmail1" class="form-label text-center"
+                    >First Name</label
+                >
+                <input
+                    type="text"
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                    name="title"
+                    value="{{each_data.title}}"
+                />
+            </div>
+            <div class="mb-3 text-center">
+                <label
+                    for="exampleInputPassword1"
+                    class="form-label"
+                    style="text-align: center"
+                    >Last Name</label
+                >
+                <input
+                    type="text"
+                    class="form-control"
+                    id="exampleInputPassword1"
+                    name="desc"
+                    value="{{each_data.desc}}"
+                />
+            </div>
+    
+            <button
+                type="submit"
+                class="btn btn-primary container"
+                style="text-align: center"
+            >
+                Update
+            </button>
+        </form>
+    </div>
+    
+{% endblock %}

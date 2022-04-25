@@ -1,0 +1,25 @@
+{% extends "../base.html" %}
+
+{% load static %}
+
+{% block head %}
+<link rel="stylesheet" href="{% static 'css/home.css' %}">
+
+{% endblock %}
+
+
+{% block content %}
+
+<div class="banner">
+    <div class="fw text-center">
+        <div class="banner-content">
+            <h1 style="color: #fff;text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;font-weight:bold;font-size:80px;">Welcome to <br /> Diabetes Prediction Website</h1>
+            <h3 style="color: black;font-weight:lighter;font-size:50px;">We Believe Everyone Should Have <br> Easy Access To Great Health Care</h3>
+            <a id="battun-1" href="{% url 'predict' %}">Get Started</a>
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock %}  

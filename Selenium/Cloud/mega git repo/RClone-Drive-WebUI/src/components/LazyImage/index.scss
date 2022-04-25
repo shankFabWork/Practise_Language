@@ -1,0 +1,17 @@
+.lazy-image {
+  &__img {
+    object-fit: cover;
+    padding: 0.125rem;
+  }
+
+  &__skeleton-wrapper {
+    width: 100% !important;
+    height: 100% !important;
+    padding: 0.125rem;
+  }
+
+  &__skeleton {
+    width: 100% !important;
+    height: 100% !important;
+  }
+}

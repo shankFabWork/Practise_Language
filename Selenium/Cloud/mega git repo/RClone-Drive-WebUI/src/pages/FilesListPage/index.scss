@@ -1,0 +1,8 @@
+.filelist-page {
+  &__container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    row-gap: 1rem;
+  }
+}

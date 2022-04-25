@@ -1,0 +1,97 @@
+{% extends "./base.html" %} {% block body %} {% include "./navbar.html" %}
+
+<div class="container">
+    <form action="/" method="POST">
+        <div class="mb-3 text-center">
+            <label for="exampleInputEmail1" class="form-label text-center"
+                >First Name</label
+            >
+            <input
+                type="text"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                name="title"
+            />
+        </div>
+        <div class="mb-3 text-center">
+            <label
+                for="exampleInputPassword1"
+                class="form-label"
+                style="text-align: center"
+                >Last Name</label
+            >
+            <input
+                type="text"
+                class="form-control"
+                id="exampleInputPassword1"
+                name="desc"
+            />
+        </div>
+
+        <button
+            type="submit"
+            class="btn btn-primary container"
+            style="text-align: center"
+        >
+            Submit
+        </button>
+    </form>
+</div>
+
+<div class="container my-3">
+    <div style="text-align: center; font-weight: bold; font-size: 50px">
+        All Todos
+    </div>
+
+    <!-- Alert -->
+    <div class="alert alert-secondary text-center" role="alert">{{msg}}</div>
+
+    {% if allTodo|length == 0 %}
+    <div
+        class="text-center"
+        style="font-weight: bold; font-size: 40px; text-decoration: underline"
+    >
+        No element found
+    </div>
+    {% else %}
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">S.No</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+                <th scope="col">Update</th>
+                <th scope="col">Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for elem in allTodo %}
+            <tr>
+                <th scope="row">{{loop.index}}</th>
+                <td>{{elem.title}}</td>
+                <td>{{elem.desc}}</td>
+                <td>{{elem.date_created}}</td>
+                <td>
+                    <a href="/update/{{elem.sno}}">
+                        <button type="button" class="btn btn-outline-primary">
+                            Update
+                        </button>
+                    </a>
+                </td>
+                <td>
+                    <a href="/delete/{{elem.sno}}">
+                        <button type="button" class="btn btn-outline-danger">
+                            Delete
+                        </button>
+                    </a>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    {% endif %}
+</div>
+
+{% endblock %}

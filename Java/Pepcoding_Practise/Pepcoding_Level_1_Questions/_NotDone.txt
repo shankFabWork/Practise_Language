@@ -1,0 +1,14 @@
+_4_Print_all_primes_till_n
+
+_33_Pattern_18
+_34_Pattern_19
+_35_Pattern_20
+_36_Get_Digit_Frequency
+
+_42_Any_base_multiplication
+
+_60_Ring_rotate = Shell Rotate
+_63_Diagonal_traversal = The State Of Wakanda - 2
+
+
+

@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FileListTableSkeleton should match snapshot 1`] = `
+<body>
+  <div>
+    <div
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiTableContainer-root file-list-table css-11xur9t-MuiPaper-root-MuiTableContainer-root"
+      data-testid="files-list-table-skeleton"
+    >
+      <table
+        class="MuiTable-root css-rqglhn-MuiTable-root"
+      >
+        <thead
+          class="MuiTableHead-root css-15wwp11-MuiTableHead-root"
+        >
+          <tr
+            class="MuiTableRow-root MuiTableRow-head css-1q1u3t4-MuiTableRow-root"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeMedium file-list-table__header-cell css-1ygcj2i-MuiTableCell-root"
+              scope="col"
+            >
+              Name
+            </th>
+            <th
+              class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeMedium file-list-table__header-cell css-1ygcj2i-MuiTableCell-root"
+              scope="col"
+            >
+              Date Modified
+            </th>
+            <th
+              class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeMedium file-list-table__header-cell css-1ygcj2i-MuiTableCell-root"
+              scope="col"
+            >
+              File Size
+            </th>
+          </tr>
+        </thead>
+        <tbody
+          class="MuiTableBody-root file-list-table__body css-apqrd9-MuiTableBody-root"
+        >
+          <tr
+            class="MuiTableRow-root file-list-table-skeleton__row css-1q1u3t4-MuiTableRow-root"
+          >
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1ex1afd-MuiTableCell-root"
+              colspan="3"
+            >
+              <span
+                class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave css-1dk1h2u-MuiSkeleton-root"
+              />
+            </td>
+          </tr>
+          <tr
+            class="MuiTableRow-root file-list-table-skeleton__row css-1q1u3t4-MuiTableRow-root"
+          >
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1ex1afd-MuiTableCell-root"
+              colspan="3"
+            >
+              <span
+                class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave css-1dk1h2u-MuiSkeleton-root"
+              />
+            </td>
+          </tr>
+          <tr
+            class="MuiTableRow-root file-list-table-skeleton__row css-1q1u3t4-MuiTableRow-root"
+          >
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1ex1afd-MuiTableCell-root"
+              colspan="3"
+            >
+              <span
+                class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave css-1dk1h2u-MuiSkeleton-root"
+              />
+            </td>
+          </tr>
+          <tr
+            class="MuiTableRow-root file-list-table-skeleton__row css-1q1u3t4-MuiTableRow-root"
+          >
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1ex1afd-MuiTableCell-root"
+              colspan="3"
+            >
+              <span
+                class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave css-1dk1h2u-MuiSkeleton-root"
+              />
+            </td>
+          </tr>
+          <tr
+            class="MuiTableRow-root file-list-table-skeleton__row css-1q1u3t4-MuiTableRow-root"
+          >
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1ex1afd-MuiTableCell-root"
+              colspan="3"
+            >
+              <span
+                class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave css-1dk1h2u-MuiSkeleton-root"
+              />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+`;

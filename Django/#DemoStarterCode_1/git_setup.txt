@@ -1,0 +1,30 @@
+# Run this command only in github
+ssh-keygen -t ed25519 -C "shankfabulous@gmail.com"
+
+# Wait here
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+clip < ~/.ssh/id_ed25519.pub
+
+git config --global user.name shashankqainfotech
+git config --global user.email shashankqainfotech@gmail.com
+
+git config --global user.name shankFabWork
+git config --global user.email shankfabulous@gmail.com
+
+git push 
+
+
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/shankFabWork/Diabetes_Prediction_System.git
+git push -u origin main
+
+git remote set-url origin https://github.com/shankFabWork/Diabetes_Prediction_System.git
+
+Go to "Settings / Developer settings / Personal access tokens"
+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
+    

@@ -1,0 +1,13 @@
+Credit history - Credit history is an attribute pointing towards a borrower's ability to repay debts.
+
+Dependents - Number of people, who are in your family
+
+Loan Amount Term - Length of time it will take for a loan to be completely paid off when the borrower is making regular payments
+
+Credit_History - Record of a borrower's responsible repayment of debts
+
+Applicant Income - A co-applicant is an additional person considered in the underwriting and approval of a loan or other type of application
+
+co-applicant - In the case of joint home loans, the co-applicant's income may be used to supplement the income of the borrower and increase their home loan eligibility.
+
+LP001003,Male,Yes,1,Graduate,No,4583,1508,128,360,1,Rural,N

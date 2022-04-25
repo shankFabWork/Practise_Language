@@ -1,0 +1,169 @@
+{% extends "../base.html" %}
+
+{% load static %}
+
+{% block head %}
+<link rel="stylesheet" href="{% static 'css/recent_results.css' %}" />
+<script type="text/javascript" src="{% static 'js/recent_results.js' %}"></script>
+{% endblock %}
+
+{% block content %}
+
+<div class="container main-section">
+	<div class="row">
+		<div class="col-lg-12 hedding pb-2">
+			<h1 style="text-align:center;text-decoration: underline;">Recent Result</h1>
+		</div>
+		<div class="col-lg-12">
+			<table class="table table-bordered table-striped" style="border-collapse:collapse;">
+
+			    <thead class="thead-dark table_head">
+			        <tr>
+			            <th><h1>S.NO</h1></th>
+			            <th><h1>Published Date</h1></th>
+			            <th><h1>Result</h1></th>
+			            <th><h1>Show Details</h1></th>
+			            <th><h1>Show Details In New Page</h1></th>
+			            <th><h1>Show and Download PDF</h1></th>
+			            <th><h1>Send Data to Mail</h1></th>
+			        </tr>
+			    </thead>
+
+          {% for i in all_results %}
+          <tbody class="table-info">
+
+		    		<tr>
+			            <td>{{forloop.counter}}</td>
+			            <td>{{i.pub_date}}</td>
+
+                  {% if i.Result == "1" %}
+                    <td style="background-color:green;">Eligible</td>  
+                  {% else %}
+                    <td style="background-color:red;">Not Eligible</td>  
+                  {% endif %}
+			            <td>
+                    <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#accordion_{{forloop.counter}}" class="clickable">
+                      Show Details 
+                    </button>                  
+                  </td>
+                  <td>
+                    <a href="{% url 'recent_results' i.id %}" target="_blank">
+                      <button type="button" class="btn btn-primary">
+                        Show Details In New Page
+                      </button>
+                    </a>
+                  </td>
+			            <td>
+                    <a class="btn btn-info" href="{% url 'show_pdf' i.id %}" target="_blank">
+                        Show PDF
+                      </a>
+                  </td>
+			            <td>
+                    <a class="btn btn-info" href="{% url 'send_html_to_email' i.id %}">
+                      Send Html To Email
+                      </a>
+                  </td>			        
+              </tr>
+              
+			        <tr id="accordion_{{forloop.counter}}" class="collapse">
+			            <td colspan="7">
+
+                      <table class="table">
+                        <thead class="table">
+                          <tr>
+                            <th><h2>Parameters</h2></th>
+                            <th><h2>Value</h2></th>
+                          </tr>
+                        </thead>
+                        <tbody class="bg-info">  
+
+                          <tr>
+                            <td data-th="Block">Gender</td>
+                            <td data-th="Element">
+                              {% if i.Gender == 1 %} Male {% else %} Female {% endif %}
+                            </td>
+                            </tr>
+                            
+                            <tr>
+                            <td data-th="Block">Married</td>
+                            <td data-th="Element">
+                              {% if i.Married == 1 %} Yes {% else %} Female {% endif %}
+                            </td>
+                            </tr>
+                            
+                            <tr>
+                            <td data-th="Block">Dependents</td>
+                            <td data-th="Element">{{i.Dependents}}</td>
+                            </tr>
+                            
+                            <tr>
+                            <td data-th="Block">Education</td>
+                            <td data-th="Element">
+                              {% if i.Education == 1 %} Graduate {% else %} Not Graduate {% endif %}
+                            </td>
+                            </tr>
+                            
+                            <tr>
+                            <td data-th="Block">Self_Employed</td>
+                            <td data-th="Element">
+                              {% if i.Self_Employed == 1 %} Yes {% else %} No {% endif %}
+                            </td>
+                            </tr>
+                            
+                            <tr>
+                            <td data-th="Block">ApplicantIncome</td>
+                            <td data-th="Element">{{i.ApplicantIncome}}</td>
+                            </tr>
+                            
+                            <tr>
+                            <td data-th="Block">CoapplicantIncome</td>
+                            <td data-th="Element">{{i.CoapplicantIncome}}</td>
+                            </tr>
+                            
+                            <tr>
+                            <td data-th="Block">LoanAmount</td>
+                            <td data-th="Element">{{i.LoanAmount}}</td>
+                            </tr>
+                            
+                            <tr>
+                            <td data-th="Block">Loan_Amount_Term</td>
+                            <td data-th="Element">{{i.Loan_Amount_Term}}</td>
+                            </tr>
+                            
+                            <tr>
+                            <td data-th="Block">Credit_History</td>
+                            <td data-th="Element">{{i.Credit_History}}</td>
+                            </tr>
+                            
+                            <tr>
+                            <td data-th="Block">Property_Area</td>
+                            <td data-th="Element">
+                              {% if i.Property_Area == 0 %} Rural {% elif i.Property_Area == 1 %} Semiurban {% else %} Urban {% endif %}
+                            </td>
+                            </tr>
+
+                          <tr>
+                            <td>Result</td>
+                              {% if i.Result == "1" %}
+                              <td style="background-color:green;">Eligible</td>  
+                              {% else %}
+                              <td style="background-color:red;" >Not Eligible</td>  
+                              {% endif %}
+                          </tr>
+
+                        </tbody>
+                      </table>
+
+			        	</td> 
+			        </tr>
+
+              
+			    </tbody>
+        {% endfor %}
+
+			</table>
+		</div>
+	</div>
+</div>
+
+{% endblock %}

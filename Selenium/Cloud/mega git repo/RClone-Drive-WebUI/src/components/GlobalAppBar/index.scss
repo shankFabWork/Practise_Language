@@ -1,0 +1,18 @@
+.global-app-bar {
+  z-index: 1300 !important;
+  position: relative !important;
+  width: auto;
+  height: auto;
+
+  &__nav-button {
+    margin-right: 1rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .global-app-bar {
+    &__nav-button {
+      display: none !important;
+    }
+  }
+}

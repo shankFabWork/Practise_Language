@@ -1,0 +1,22 @@
+# Recent
+https://nados.io/content/introduction-to-recursion
+
+All content Link :
+https://docs.google.com/spreadsheets/d/1dWLJVzYxM_YaHLjohJvf3NEkpAjkVF-p0pdtgDKntD0/edit#gid=0
+
+First Complete lvl1 and lvl2 of the following topics :-
+1) Recursion & Backtracking 
+Recursion & Backtracking level - 1
+https://www.youtube.com/watch?v=5Q5ed7PWJ8I&list=PL-Jc9J83PIiFxaBahjslhBD1LiJAV7nKs
+Backtracking level - 2
+https://www.youtube.com/watch?v=LliQjLnbhx8&list=PL-Jc9J83PIiHO9SQ6lxGuDsZNt2mkHEn0
+2) Dynamic Programming
+Dynamic Programming level - 1
+https://www.youtube.com/watch?v=94dfRrDANRY&list=PL-Jc9J83PIiG8fE6rj9F5a6uyQ5WPdqKy
+Dynamic Programming level - 2
+https://www.youtube.com/watch?v=UagRoA3C5VQ&list=PL-Jc9J83PIiEZvXCn-c5UIBvfT8dA-8EG
+3) Graph
+Graphs - Level 1
+https://www.youtube.com/watch?v=t0r04fYdT7U&list=PL-Jc9J83PIiHfqDcLZMcO9SsUDY4S3a-v
+Graphs - Level 2
+https://www.youtube.com/watch?v=R3AJoOBVAlg&list=PL-Jc9J83PIiEuHrjpZ9m94Nag4fwAvtPQ

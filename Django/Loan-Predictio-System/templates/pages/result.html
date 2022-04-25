@@ -1,0 +1,129 @@
+{% extends "../base.html" %}
+
+{% load static %}
+
+{% block head %}
+<link rel="stylesheet" href="{% static 'css/result.css' %}">
+{% endblock %}
+
+
+{% block content %}
+
+
+
+<div class="container">
+    <div class="vertical-center">
+
+        <div class="container">
+            <h1 style="text-align:center">Result Data</h1>
+            <div class="table-1">
+              <table>
+                <tbody>
+
+                  <tr>
+                    <td data-th="Block">Gender</td>
+                    <td data-th="Element">
+                      {% if Gender == 1 %} Male {% else %} Female {% endif %}
+                    </td>
+                    </tr>
+                    
+                    <tr>
+                    <td data-th="Block">Married</td>
+                    <td data-th="Element">
+                      {% if Married == 1 %} Yes {% else %} Female {% endif %}
+                    </td>
+                    </tr>
+                    
+                    <tr>
+                    <td data-th="Block">Dependents</td>
+                    <td data-th="Element">{{Dependents}}</td>
+                    </tr>
+                    
+                    <tr>
+                    <td data-th="Block">Education</td>
+                    <td data-th="Element">
+                      {% if Education == 1 %} Graduate {% else %} Not Graduate {% endif %}
+                    </td>
+                    </tr>
+                    
+                    <tr>
+                    <td data-th="Block">Self_Employed</td>
+                    <td data-th="Element">
+                      {% if Self_Employed == 1 %} Yes {% else %} No {% endif %}
+                    </td>
+                    </tr>
+                    
+                    <tr>
+                    <td data-th="Block">ApplicantIncome</td>
+                    <td data-th="Element">{{ApplicantIncome}}</td>
+                    </tr>
+                    
+                    <tr>
+                    <td data-th="Block">CoapplicantIncome</td>
+                    <td data-th="Element">{{CoapplicantIncome}}</td>
+                    </tr>
+                    
+                    <tr>
+                    <td data-th="Block">LoanAmount</td>
+                    <td data-th="Element">{{LoanAmount}}</td>
+                    </tr>
+                    
+                    <tr>
+                    <td data-th="Block">Loan_Amount_Term</td>
+                    <td data-th="Element">{{Loan_Amount_Term}}</td>
+                    </tr>
+                    
+                    <tr>
+                    <td data-th="Block">Credit_History</td>
+                    <td data-th="Element">{{Credit_History}}</td>
+                    </tr>
+                    
+                    <tr>
+                    <td data-th="Block">Property_Area</td>
+                    <td data-th="Element">
+                      {% if Property_Area == 0 %} Rural {% elif Property_Area == 1 %} Semiurban {% else %} Urban {% endif %}
+                    </td>
+                    </tr>
+
+                  <tr>
+                      <td data-th="Block" >Result</td>
+                      {% if result == 0 %}
+                        <td data-th="Element" style="background-color:red;color:black;">Not Eligible</td>  
+                      {% else %}
+                        <td data-th="Element" style="background-color:green;color:black;">Eligible</td>  
+                      {% endif %}
+                  </tr>
+                  <tr>
+                    {% if result == 0 %}
+                      <td data-th="Element" style="background-color:red;color:black;">
+                        You are not eligible for Loan.We have some suggested for you.
+                      </td> 
+                      <td>
+                        <a href="https://economictimes.indiatimes.com/small-biz/money/what-to-do-if-you-are-refused-a-bank-loan/articleshow/61016554.cms" target="blank">Click Here</a>
+                      </td>  
+                    {% else %}
+                    <td data-th="Element" style="background-color:green;color:black;">
+                      Congratulation your Loan is approved.
+                    </td> 
+                    <td>
+                      <a href="{% url 'recent_results' %}">See Recent Results</a>
+                    </td>  
+                    {% endif %}
+                </tr>
+
+                </tbody>
+              </table>
+            </div>
+        </div>
+
+
+
+    </div>
+</div>
+
+
+
+
+
+
+{% endblock %}  

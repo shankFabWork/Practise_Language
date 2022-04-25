@@ -1,0 +1,57 @@
+{% extends "../base.html" %}
+
+{% load static %}
+
+{% block head %}
+<link rel="stylesheet" href="{% static 'css/predict.css' %}" />
+{% endblock %}
+
+
+{% block content %}
+
+<br />
+<div class="row">
+    <div class="col-md-12">
+        <form action="{% url 'predict' %}" method="POST">
+            {% csrf_token %}    
+            <b><h2> Welcome to Prediction Page </h2></b>
+            <br />
+            <br />
+        
+        <fieldset>
+          
+          <legend>Please fill all the following information</legend>
+        
+          <label for="name">Pregnancies:</label>
+          <input type="text" id="name"  name="Pregnancies" />
+
+          <label for="name">Glucose:</label>
+          <input type="text" id="name"  name="Glucose" />
+
+          <label for="name">Blood Pressure:</label>
+          <input type="text" id="name"  name="Blood_Pressure" />
+
+          <label for="name">Skin Thickness:</label>
+          <input type="text" id="name"  name="Skin_Thickness" />
+
+          <label for="name">Insulin:</label>
+          <input type="text" id="name"  name="Insulin" />
+
+          <label for="name">BMI:</label>
+          <input type="text" id="name"  name="Bmi_val" />
+
+          <label for="name">Diabetes Pedigree Function:</label>
+          <input type="text" id="name"  name="Diabetes_Pedigree_Function" />
+
+          <label for="name">Age:</label>
+          <input type="text" id="name"  name="Age" />
+        
+         </fieldset>
+       
+         <button type="submit">Submit</button>        
+       </form>
+        </div>
+      </div>
+      
+
+{% endblock %}

@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bootstrap Card</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      </head>
+<body>
+
+    <form method="GET">
+        <input type="text" name="SearchData" />
+        <br />
+        <button type="submit">Submit</button>
+    </form>
+    <br />
+    <div class="card-columns">
+        {% if new_arr|length == 0 %}
+            <h1> No DATA Found </h1>
+        {% else %}
+            {% for i in new_arr %}
+                <div class="card bg-primary">
+                <div class="card-body text-center">
+                    <p class="card-text">
+                        {{i.name}}
+                        <br />
+                        <br />
+                        {{i.description | safe}}
+                    </p>
+                </div>
+                </div>
+            {% endfor %}
+        {% endif %}
+    </div>
+    <br />
+    {% for i in my_paginator %}
+        <a href="/FilterOptionsWithPaginator/?page={{i}}" class="btn btn-primary">{{i}}</a>
+    {% endfor %}
+    <br />
+    <nav aria-label="Page navigation example">
+        <ul class="pagination">
+            <li class="page-item"><a href="/FilterOptionsWithPaginator/?page=1" class="page-link" href="#">First Page</a></li>
+            {% if new_arr.has_previous %}
+                <li class="page-item"><a href="?page={{new_arr.previous_page_number}}" class="page-link" href="#">Previous</a></li>
+            {% endif %}
+            <li class="page-item"><a href="/FilterOptionsWithPaginator/?page=1" class="page-link" href="#">1</a></li>
+            <li class="page-item"><a href="/FilterOptionsWithPaginator/?page=2" class="page-link" href="#">2</a></li>
+          <!-- <li class="page-item"><a href="/FilterOptionsWithPaginator/?page=3" class="page-link" href="#">3</a></li> -->
+          {% if new_arr.has_next %}
+          <li class="page-item"><a href="?page={{new_arr.next_page_number}}" class="page-link" href="#">Next</a></li>
+          {% endif %}
+          <li class="page-item"><a href="?page={{last_page}}" class="page-link" href="#">Last page</a></li>
+        </ul>
+      </nav>
+
+</body>
+</html>

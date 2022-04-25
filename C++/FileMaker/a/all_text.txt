@@ -1,0 +1,545 @@
+Print Z
+Grading System
+Is a number prime
+Print all primes till n
+Print fibonacci
+Count digits
+Digits of a number
+Reverse a number
+Armstrong number
+Inverse a number
+Rotate a number
+Gcd lcm
+Prime factorization of a number
+Pythagorean triplet
+The curious case of benjamin bulbs
+Pattern 1
+Pattern 2
+Pattern 3
+Pattern 4
+Pattern 5
+Pattern 6
+Pattern 7
+Pattern 8
+Pattern 9
+Pattern 10
+Pattern 11
+Pattern 12
+Pattern 13
+Pattern 14
+Pattern 15
+Pattern 16
+Pattern 17
+Pattern 18
+Pattern 19
+Pattern 20
+Get Digit Frequency
+Decimal to any base
+Any base to decimal
+Any base to any base
+Any base addition
+Any base substraction
+Any base multiplication
+Arrays- introduction and memory
+Span of array
+Find an element
+Bar chart
+Sum of two arrays
+Difference of two arrays
+Reverse an array
+Rotate an array
+Inverse an array
+Print all subarrays
+Print all subsets
+Binary Search
+Broken economy
+First index and last index
+2d arrays - introduction and memory
+Wave display
+Spiral display
+Ring rotate
+Matrix multiplication
+Rotate by 90 degree
+Diagonal traversal
+Exit point
+Saddle price
+Search in sorted 2d array
+String theory
+Toggle case 
+String with difference of every two consecutive characters
+Print all palindromic substrings
+String compression
+Remove primes
+Print Decreasing
+Print increasing
+Print decreasing increasing
+Print zigzag
+Factorial
+Power
+Tower of hanoi
+Display array
+Display array in reverse
+Max of an array
+First index
+Last index
+All indices of an array
+Get subsequence
+Get kpc
+Get stair paths
+Get maze paths
+Get maze paths with multiple jumps
+Print subsequence
+Print kpc
+Print stair paths
+Print maze paths
+Print maze path with multiple jumps
+Print permutations
+Print encodings
+Target sum subsets
+Flood fill
+N Queens
+Knights tour
+Bubble sort
+Selection sort
+Insertion sort
+Merge two sorted arrays
+Merge sort
+Sort 01
+Partition an array
+Quick sort
+Quick Select
+Sort 012
+Count sort
+Radix sort
+Sort dates
+Pivot in sorted and rotated array
+Duplicate brackets 
+Balanced brackets
+Next greater element element to the right
+Stock span
+Largest area histogram
+Sliding window max
+Infix evaluations
+Infix conversions
+Postfix evaluations and conversions
+Prefix evaluations and conversions
+Celebrity problem
+Smallest number following pattern
+Normal stack 
+Dynamic stack
+Min Stack - 1
+Min Stack - 2
+Normal queue
+Dynamic queue
+Queue to stack adapter
+Stack to queue adapter
+Two Stacks in an array
+Add last a linkedlist
+Display linkedlist
+Add first in linkedlist
+Add at index in linkedlist
+Get first in linkedlist
+Get last in linkedlist
+Get at index in linkedlist
+Remove first from linkedlist
+Remove last from linkedlist
+Remove at index in linkedlist
+Reverse a linkedlist - pi
+Reverse a linkedlist - di
+Linkedlist to stack adapter
+Linkedlist to queue adapter
+Kth node from end
+Mid of linkedlist
+Merge two sorted linkedlist
+Merge sort a linkedlist
+Odd even lisnkedlist
+K reverse a linkedlist
+Display reverse a linkedlist
+Reverse linkedlist pointer recursive
+Is linkedlist a palindrome
+Reverse linkedlist data recursive
+Fold a linkedlist
+ Add two linkedlists
+Intersection of two linkedlists
+Detect loop in a linkedlist
+Clone a linkedlist
+Split circular linkedlist
+Generic tree constructor
+Generic tree display
+Size, max in generic tree
+Height of a genric tree
+Traversals in a generic tree
+Level order traversal
+Level order linewise
+level order linewise zigzag
+Mirror a generic tree
+Linearize a generic tree
+Find in generic tree
+Find in generic tree
+Node to root path in generic tree
+Lowest common ancestor
+Distance between two nodes
+Are trees similar in shape
+Is generic tree symmetric
+Multisolver
+Predecessor and successor of a node in generic tree
+Ceil and floor in generic tree
+Kth largest in generic tree
+Node with maximum subtree sum
+Diameter of a generic tree
+Iterative preorder and post order of a generic tree
+Iterable and iterator
+Binary tree constructor and display
+Size, sum, max and height of binarytree
+Level order traversal in binary tree
+Iterative pre post and in order of binary tree
+Find and node to root path in binary tree
+Print k levels down
+Print nodes k distance away
+Path to leaf to root in range
+Transform to left cloned tree
+Transform back to normal
+Print single child nodes
+Remove leaves in a binary tree
+Diameter of a binary tree
+Tilt of a binary tree
+Is a binary search tree
+Is balanced tree
+Largest bst in a binary tree
+Left view of a binary tree
+Right view of a binary tree
+Top view of a binary tree
+Bottom view of a binary tree
+Vertical order of a binary tree
+Diagonal traversal of a binary tree
+Boundary traversal of a binary tree
+Reverse level order
+Clone a binary tree with random pointer
+Convert binary tree to linkedlist
+Convert binary tree to doubly linkedlist
+Largest zigzag path in binary tree
+Max product splitted binary tree
+serialize and deserialize a binary tree
+Size, sum ,max, min, find in bst
+Add node in bst
+Remove node in bst
+Replace with sum of larger
+Lowest common ancestor of binary tree
+Print in range of bst
+Target sum pair in bst
+Construct bst with pre and post order
+Contruct bst with pre and in order
+Contruct bst with in and post order
+Kth smallest element in a binary tree
+Conversion of sorted dll to bst
+Merge two bst's
+Introduction to AVL tree
+All rotations in AVL tree
+Pre Order Morris traversal
+Inorder Morris traversal
+Hashmap introduction
+Highest frequency character
+Get common elements - 1
+Get common elements - 2
+Longest consecutive sequence of elements
+Introduction to heap
+K largest elements
+Sort k sorted array
+Median priority queue
+Merge k sorted lists
+LRU cache
+Number of employees under every manager
+Find itenrary from tickets
+Check if an array can be divided into pairs whose sum is divisible by k
+Count Distinct Elements In Every Window Of Size K
+Largest Subarray With Zero Sum
+Count Of All Subarrays With Zero Sum
+Largest Subarray With Contiguous Elements
+Smallest Substring Of A String Containing All Characters Of Another String
+Longest Substring With Non Repeating Characters
+Count Of Substrings Having All Unique Characters
+Longest Substring With Exactly K Unique Characters
+Count Of Substrings With Exactly K Unique Characters
+Maximum Consecutive Ones - 1 Easy
+Maximum Consecutive Ones - 2 Easy
+Longest Substring With At Most K Unique Characters Easy
+Count Of Substrings Having At Most K Unique Characters
+Find all anagrams in a string
+Valid anagram
+Group anagram
+Group shifted string
+Isomorphic strings
+Count Of Subarrays Having Sum Equals To K Medium
+Longest Subarray With Sum Divisible By K Easy
+Count Of Subarrays With Sum Divisible By K Easy
+Longest Subarray With Equal Number Of Zeroes And Ones Easy
+Count Of Subarrays With Equal Number Of Zeroes And Ones Easy
+Longest Subarray With Equal Number Of 0s 1s And 2s Easy
+Count Of Subarrays With Equal Number Of 0s 1s And 2s Easy
+Pairs With Equal Sum Easy
+Recurring Sequence In A Fraction Hard
+Rabbits In The Forest Medium
+Double Pair Array Medium
+Check Arithmetic Sequence Easy
+Smallest Subarray With All Occurrences Of The Most Frequent Element Medium
+Task Completion Easy
+Pairs With Given Sum In Two Sorted Matrices Easy
+Quadruplet Sum Medium
+Quadruplet Sum - 2 Medium
+Powerful Number Easy
+Subdomain Visit Count Easy
+First Non-repeating Character
+Max Frequency Stack Easy
+Encode And Decode Tinyurl Easy
+The Skyline Problem Hard
+Insert Delete Getrandom O(1) Medium
+Insert Delete Getrandom O(1) - Duplicates Allowed Hard
+Random Pick With Blacklist Hard
+Avoid Flood In The City Medium
+Pairs Of Non Coinciding Points Medium
+Line Reflection Medium
+Longest Substring With At Most Two Distinct Characters Medium
+Minimum Cost To Connect Sticks Easy
+Reorganize String Easy
+Snap Shot Array Easy
+Minimum Number Of Refueling Stops
+Has Path? Easy
+Print All Paths Easy
+Multisolver - Smallest, Longest, Ceil, Floor, Kthlargest Path Easy
+Get Connected Components Of A Graph Easy
+Is Graph Connected Easy
+Number Of Islands Easy
+Perfect Friends Easy
+Hamiltonian Path And Cycle Easy
+Knights Tour Easy
+Breadth First Traversal Easy
+Is Graph Cyclic Easy
+Is Graph Bipartite Easy
+Spread Of Infection Easy
+Shortest Path In Weights Easy
+Minimum Wire Required To Connect All Pcs Easy
+Order Of Compilation Easy
+Iterative Depth First Traversal
+Fibonacci - dp
+Climb stairs
+Climb stairs with multiple jumps
+Climb stairs with minimum jumps
+Min Cost in maze traversal
+Goldmine
+Target sum subsets dp
+Kadanes algorithm
+Maximum Difference Of Zeros And Ones In Binary String
+Coin change combination
+Coin change permutation
+Zero one knapsack
+Tiling with 2*1 tiles
+Count Binary Strings
+Count encodings
+Count a+b+c+ subsequence
+Maximum sum non-adjacent elements
+Paint house
+Paint fence
+Friends partition
+Partition into partitions
+Stock Buy Sell - 1
+Stock Buy Sell - 2
+Stock Buy Sell - 3
+Stock Buy Sell - 4
+Stock Buy Sell - 5
+Stock Buy Sell - 6
+Coin Change - Combinations - 1 Medium
+Coin Change - Combinations - 2 Medium
+Coin Change - Permutations - 1 Medium
+Coin Change - Permutations - 2 Medium
+Solve Sudoku Hard
+Crossword Puzzle Easy
+Cryptarithmetic Easy
+Gold Mine - 2 Easy
+Josephus Problem Easy
+Lexicographical Numbers Medium
+Friends Pairing - 2 Easy
+K-partitions Easy
+K Subsets With Equal Sum Medium
+Abbreviation Using Backtracking Medium
+Max Score Hard
+All Palindromic Permutations Medium
+All Palindromic Partitions Medium
+Pattern Matching Medium
+Word Break - I Easy
+Remove Invalid Parenthesis Hard
+Tug Of War Easy
+Largest Number Possible After At Most K Swaps
+Basics Of Bit Manipulation Easy
+Print Value Of Rsb Mask Easy
+Kernighans Algorithm Easy
+Minimum Number Of Software Developers Easy
+Number Of Valid Words Hard
+All Repeating Except One Easy
+All Repeating Except Two Easy
+One Repeating And One Missing Easy
+All Repeating Three Times Except One Easy
+Triplets - 1 Easy
+Reduce N To 1 Easy
+Pepcoder And Bits Easy
+Xor Of Sum Of All Pairs Easy
+Abbreviation 1 - Using Bits Easy
+Utf - 8 Encoding Easy
+Sudoku Using Bit Manipulation Medium
+Flip Bits To Convert A To B Easy
+Copy Set Bits In A Range Easy
+Is A Power Of 2 Easy
+Is A Power Of 4 Easy
+Solve 7n By 8 Easy
+Swap All Odd And Even Bits Easy
+Check Divisibility By 3 Easy
+Count Set Bits In First N Natural Numbers Easy
+Print Binary And Reverse Bits Easy
+Minimum Flips To Make A Or B Equal To C
+Largest Square Sub-matrix With All 1's Medium
+2 Key Keyboard Medium
+Longest Increasing Subsequence Medium
+Print All Longest Increasing Subsequences Easy
+Maximum Sum Increasing Subsequence Easy
+Longest Bitonic Subsequence Easy
+Maximum Non-overlapping Bridges Easy
+Russian Doll Envelopes Hard
+Min Squares Easy
+Catalan Number Easy
+Number Of Bsts Medium
+Count Of Valleys And Mountains Easy
+Count Brackets Easy
+Circle And Chords Easy
+Number Of Ways Of Triangulation Easy
+Catalan Numbers Variation
+Matrix Chain Multiplication Medium
+Burst Balloons Hard
+Minimum Score Of Triangulation Medium
+Boolean Parenthesization Easy
+Optimal Binary Search Tree Easy
+Rod Cutting Easy
+Minimum Palindromic Cut Easy
+Longest Common Subsequence Medium
+Longest Palindromic Subsequences Medium
+Count Palindromic Subsequences Hard
+Count Palindromic Substrings Medium
+Longest Palindromic Substring Medium
+Count Distinct Subsequences Easy
+Wildcard Pattern Matching Medium
+Regular Expression Matching Hard
+Longest Common Substring Easy
+Longest Repeating Subsequence Medium
+Edit Distance Hard
+Minimum Ascii Delete Sum For Two Strings Medium
+Minimum Cost To Make Two Strings Identical Easy
+K Concatenation Medium
+Maximum Sum Subarray With At Least K Elements Medium
+Egg Drop Hard
+Optimal Strategy For A Game Easy
+Cherry Pickup Hard
+Probability Of Knight In The Chessboard Medium
+Highway Billboard Medium
+Distinct Transformations Medium
+Numeric Keypad Medium
+Maximum Difference Of Zeros And Ones In Binary String Easy
+Maximum Sum Of Two Non-overlapping Subarrays Medium
+Maximum Sum Of M Non-overlapping Subarrays Hard
+Arithmetic Slices 1 Medium
+Arithmetic Slices 2 Hard
+Word Break Medium
+Temple Offerings Medium
+Minimum Insertions To Make Palindrome Easy
+Ugly Number Medium
+Super Ugly Number Medium
+Find Water In Glass Medium
+Frog Jump Hard
+Interleaving Of Two Strings
+Coloring A Border Medium
+Number Of Enclaves Medium
+Number Of Distinct Island Medium
+Zero One Matrix Medium
+Rotting Oranges Easy
+As Far From Land As Possible Medium
+Shortest Bridge Easy
+Bus Routes Hard
+Sliding Puzzle Hard
+Minimum Number Of Swaps Required To Sort An Array Hard
+Pepcoder And Reversing Medium
+Alien Dictionary Medium
+Kruskal Algorithm Medium
+Optimize Water Distribution Hard
+Swim In Rising Water Hard
+Minimum Cost To Connect All Cities Medium
+Bellman Ford Medium
+Negative Weight Cycle Detection Hard
+Kosaraju Algorithm Hard
+Mother Vertex Hard
+Articulation Point Hard
+Critical Connection Medium
+Remove Max Number Of Edges To Keep Graph Fully Traversable Hard
+Number Of Island 2 Hard
+Reconstruct Itinerary Medium
+Rank Transform Of A Matrix Hard
+Accounts Merge Medium
+Minimize Malware Spread Hard
+Minimize Malware Spread 2 Hard
+Redundant Connection Medium
+Minimize Hamming Distance After Swap Operations Medium
+Faulty Keyboard Easy
+Range Addition Easy
+Container With Most Water Easy
+Majority Element - I Easy
+Majority Elements - I I Easy
+Majority Element General Easy
+Product Of Array Except Itself Without Using Division Operator Easy
+Partition Labels Easy
+Max Chunks To Make Array Sorted Easy
+Max Chunks To Make Array Sorted 2 Easy
+Min Jumps With +i -i Moves Easy
+Sort Array By Parity Easy
+Best Meeting Point Easy
+Sieve Of Eratosthenes Easy
+Segmented Sieve Easy
+Shortest Unsorted Continuous Subarray Easy
+Wiggle Sort 1 Easy
+Wiggle Sort 2 Easy
+Add Strings Easy
+Multiply Strings Easy
+Complex Number Multiplication Easy
+Valid Palindrome 2 Easy
+Car Fleet Medium
+Number Of Subarrays With Bounded Maximum Easy
+Maximum Swap Easy
+Smallest Range Covering Elements From K Lists Hard
+2 Sum - Target Sum Unique Pairs Easy
+3 Sum - Target Sum Unique Triplet Easy
+4 Sum - Target Sum With Unique Quadruple Medium
+K Sum - Target Sum Unique Set Hard
+Consecutive Numbers Sum Hard
+Push Dominoes Medium
+Maximum Product Subarray Easy
+Sum Of Subsequence Widths Easy
+Construct Target Array With Multiple Sums Easy
+Furthest Building You Can Reach Easy
+Where Will The Ball Fall Medium
+Design Tic-tac-toe Easy
+Largest Multiple Of Three Hard
+Battleship In Board Easy
+Merge Intervals Medium
+Minimum Number Of Platform Easy
+Meeting Rooms I Easy
+Meeting Rooms I I Medium
+Insert Intervals Medium
+Find Minimum Number Of Arrows Needed To Burst Balloon Medium
+Car Pooling Medium
+Min Len Of String After Removing Similar Ends Medium
+Number Of Sub-arrays With Odd Sum Easy
+Top K Frequent Elements Easy
+Word Search
+Find K Closest Elements
+Count Inversions
+Search In Rotated Sorted Array
+Median Of Two Sorted Arrays
+Chocolate Distribution
+Sequential Digits
+K-th Smallest Prime Fraction
+Pancake Sorting

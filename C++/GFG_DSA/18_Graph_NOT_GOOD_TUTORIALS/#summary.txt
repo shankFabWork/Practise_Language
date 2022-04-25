@@ -1,0 +1,54 @@
+1) 11_Shortest_Path_in_an_Unweighted_Graph
+    => uses BFS
+    dist[v] = dist[u] + 1
+
+2) 12_Detect_Cycle_in_Undirected_Graph
+    => uses DFS
+    parent = -1
+    s -> u(adjacent)
+    parent -> s
+
+    if(visited[u] == false)
+    {
+        if(DFS_recursion(adj,visited,u,s) == true)
+        {
+            return true;
+        }
+    }
+    else if(u != parent)
+    {
+        return true;
+    }
+
+3) 13_Detect_Cycle_in_a_Directed_Graph__Part_1_
+    => uses DFS
+    recSta[s] = true;
+    else if(recSta[u] ==true)
+    recSta[s] = false;
+    for(int u:adj[s])
+    {
+        if(visited[u] == false && DFS_Recursion(adj,u,visited,recSta) == true)
+        {
+            return true;
+        }
+        else if(recSta[u] ==true)
+        {
+            return true;
+        }
+    }
+
+4) 14_Topological_Sorting__Kahn's_BFS_Based_Algortihm_
+    => by BFS
+    vector <int> indegree(n,0);
+    // see code
+
+5) 15_Detect_Cycle_in_a_Directed_Graph__Part_2_
+    // use Topological_Sorting BFS
+    do count++
+    return (count != n);
+
+6) 16_Topological_Sorting__DFS_Based_Algorithm_
+    // by DFS
+    // uses stack <int> sta;
+    // put sta.push(s) in last of DFS_recursion
+    // then simply print stack

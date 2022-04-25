@@ -1,0 +1,128 @@
+{% url 'home' as home %}
+{% url 'login' as login %}
+{% url 'register' as register %}
+{% url 'update' as update %}
+{% url 'profile' as profile %}
+{% url 'logout' as logout %}
+
+{% url 'predict' as predict %}
+{% url 'recent_results' as recent_results %}
+{% url 'all_user' as all_user %}
+
+
+<!--Navbar -->
+<nav class="mb-1 navbar navbar-expand-lg navbar-dark default-color">
+  <a class="navbar-brand" href="#">
+    <i class="fa fa-medkit" style="font-size:40px;"></i>
+    &nbsp;&nbsp;&nbsp;
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
+    aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
+    <ul class="navbar-nav mr-auto">
+
+      {% if user.is_superuser %}
+      
+      <li class="nav-item {% if request.path == all_user %} active {% endif %}">
+        <a class="nav-link" href="{% url 'all_user' %}">All Users
+        </a>
+      </li>
+
+      <li class="nav-item {% if request.path == admin %} active {% endif %}">
+        <a class="nav-link" href="/admin" target="_blank">Admin Panel
+        </a>
+      </li>
+
+      <li class="nav-item {% if request.path == home %} active {% endif %}">
+        <a class="nav-link" href="{% url 'home' %}">Home
+        </a>
+      </li>
+      
+      <li class="nav-item {% if request.path == profile %} active {% endif %}">
+        <a class="nav-link" href="{% url 'profile' %}">Profile</a>
+      </li>
+
+      <li class="nav-item {% if request.path == update %} active {% endif %}">
+        <a class="nav-link" href="{% url 'update' %}">Update Profile</a>
+      </li>
+      
+      <li class="nav-item {% if request.path == predict %} active {% endif %}">
+        <a class="nav-link" href="{% url 'predict' %}">Predict</a>
+      </li>
+
+      <li class="nav-item {% if request.path == recent_results %} active {% endif %}">
+        <a class="nav-link" href="{% url 'recent_results' %}">Recent Results</a>
+      </li>
+
+      {% else %}
+
+          {% if user.is_authenticated %}
+          
+              <li class="nav-item {% if request.path == home %} active {% endif %}">
+                <a class="nav-link" href="{% url 'home' %}">Home
+                </a>
+              </li>
+              
+              <li class="nav-item {% if request.path == profile %} active {% endif %}">
+                <a class="nav-link" href="{% url 'profile' %}">Profile</a>
+              </li>
+
+              <li class="nav-item {% if request.path == update %} active {% endif %}">
+                <a class="nav-link" href="{% url 'update' %}">Update Profile</a>
+              </li>
+              
+              <li class="nav-item {% if request.path == predict %} active {% endif %}">
+                <a class="nav-link" href="{% url 'predict' %}">Predict</a>
+              </li>
+
+              <li class="nav-item {% if request.path == recent_results %} active {% endif %}">
+                <a class="nav-link btn btn-primary" href="{% url 'recent_results' %}">Recent results</a>
+              </li>
+
+          {% else %}
+          {% endif %}
+
+      {% endif %}
+
+    </ul>
+    
+    <ul class="navbar-nav ml-auto nav-flex-icons">
+
+
+  {% if user.is_authenticated %}
+      <li class="nav-item">
+        <a class="nav-link">Welcome {{user.username}}</a>
+      </li>
+      <li class="nav-item">
+        <img style='border-radius: 50%;width: 50px;height: 50px;' src='{{user.profile.front.url}}' />
+      </li>
+      &nbsp;
+      <li class="nav-item {% if request.path == logout %} active {% endif %}">
+        <a class="nav-link" href="{% url 'logout' %}">
+          <button class="btn btn-sm btn-danger">Logout</button>
+        </a>
+    </li>
+
+    
+      
+  {% else %}
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'register' %}">Register</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'login' %}">Login</a>
+      </li>
+  {% endif %}
+
+    
+    </ul>
+
+  </div>
+</nav>
+<!--/.Navbar -->
+
+
+

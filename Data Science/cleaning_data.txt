@@ -1,0 +1,4 @@
+1) missing value
+2) redundent value
+3) drop irrelevent columns
+4) remove null value with mean or remove rows in which their is a null value

@@ -1,0 +1,200 @@
+Introduction to Foundation
+How to Print in JAVA
+Print Z - Question
+Print Z - Solution Video
+Variables in JAVA
+Conditionals
+Conditionals - Question | Grading System
+Conditionals - Solution | Grading System
+Loops
+Take Input
+Is a number Prime? - Question
+Is a number Prime? - Solution
+Print all prime numbers till N - Question
+Print all prime numbers till N - Solution
+Print all Fibonacci Numbers till N - Question
+Print all Fibonacci numbers till N - Solution
+Count digits in a number - Question
+Count digits in a number - Solution
+Digits of a number - Question
+Digits of a number - Solution
+Reverse a number - Question
+Reverse a number - Solution
+Inverse of a number - Question
+Inverse of a number - Solution
+Rotate a number - Question
+Rotate a number - Solution
+GCD and LCM - Question
+GCD and LCM - Solution
+Prime Factorization - Question
+Prime Factorization - Solution
+Pythagorean Triplets - Question
+Pythagorean Triplets - Solution
+Benjamin Bulbs - Question
+Benjamin Bulbs - Solution
+Pattern-1 | Question
+Pattern-1 | Solution
+Pattern-2 | Question
+Pattern-2 | Solution
+Pattern-3 | Question
+Pattern-3 | Solution
+Pattern-4 | Question
+Pattern-4 | Solution
+Pattern-5 | Question
+Pattern-5 | Solution
+Pattern-6 | Question
+Pattern-6 | Solution
+Pattern-7 | Question
+Pattern-7 | Solution
+Pattern-8 | Question
+Pattern-8 | Solution
+Pattern-9 | Question
+Pattern-9 | Solution
+Pattern-10 | Question
+Pattern-10 | Solution
+Pattern-11 | Question
+Pattern-11 | Solution
+Patttern-12 | Question
+Pattern-12 | Solution
+Patterm-13 | Question
+Pattern-13 | Solution
+Pattern-14 | Question
+Pattern-14 | Solution
+Pattern-15 | Question
+Pattern-15 | Solution
+Pattern-16 | Question
+Pattern-16 | Solution
+Pattern-17 | Question
+Pattern-17 | Solution
+Pattern-18 | Question
+Pattern-18 | Solution
+Pattern-19 | Question
+Pattern-19 | Solution
+Pattern-20 | Question
+Pattern-20 | Solution
+Introduction to Functions
+Digits Frequency | Question
+Digits Frequency | Solution
+Introduction to Number System
+Decimal to any Base | Question
+Decimal to any Base | Solution
+Any base to decimal | Question
+Any base to Decimal | Solution
+Any base to any base | Question
+Any base to any base | Solution
+Any base addition | Question
+Any base Addition | Solution
+Any base subtraction | Question
+Any base subtraction | Solution
+Any base multiplication | Question
+Any base multiplication | Solution
+Introduction to Arrays
+Arrays - Memory
+Span of an Array | Question
+Span of an Array | Solution
+Find Element in Array | Question
+Find element in an Array | Solution
+Bar Chart | Question
+Bar Chart | Solution
+Sum of two arrays | Question
+Sum of two arrays | Solution
+Difference of two arrays | Question
+Difference of two arrays | Solution
+Introduction to Stacks and its usage
+Duplicate Brackets | Question
+Duplicate Brackets | Solution
+Balanced Brackets | Question
+Balanced Brackets | Solution
+Next Greater Element on the Right | Question
+Next Greater element on the right | Solution
+Next Greater Element on the Right | Alternative Solution
+Stock Span | Question
+Stock Span | Solution
+Largest Area Histogram | Question
+Largest Area Histogram | Solution
+Sliding Window Maximum | Question
+Sliding Window Maximum | Solution
+Infix Evaluation | Question
+Infix Evaluation | Solution
+Infix Conversions | Questions
+Infix Conversions | Solution
+Postfix Evaluations and Conversions | Questions
+Postfix Expressions | Solution
+Prefix Evaluations and Conversion | Question
+Prefix Evaluation and Conversion | Solution
+Celebrity Problem | Question
+Celebrity Problem | Solution
+Merge Overlapping Intervals | Question
+Merge Overlapping Intervals | Solution
+Smallest number following Pattern | Questions
+Smallest number following Pattern | Solution
+OOP's - Classes and Objects
+OOP's | Swap Game 1
+OOP's | Swap Game 2
+OOP's | Swap Game 2
+OOP's | Swap Game 3
+OOP's | Constructors and This
+Build Normal Stack | Question
+Build Normal Stack | Solution
+Build Dynamic Stack | Question
+Build Dynamic Stack | Solution
+Minimum Stack - 1 | Question
+Minimum Stack - 1 | Solution
+Minimum Stack - 2 | Question
+Minimum Stack - 2 | Solution
+Queues | Introduction and Usage
+Build Normal Queue | Question
+Build Normal Queue | Solution
+Build Dynamic Queue | Question
+Build Dynamic Queue | Solution
+Linked Lists | Introduction
+Data Members of a Linked List
+Add Last in Linked List | Question
+Add Last in Linked List | Solution
+Display and Size of Linked List | Solution
+Remove First from Linked List | Question
+Remove First in Linked List | Solution
+Get Value in Linked List | Question
+Get Value in Linked List | Solution
+Add First in Linked List | Question
+Add First in Linked List | Solution
+Add at Index in Linked List | Question
+Add at Index in Linked List | Solution
+Remove Last in Linked List | Question
+Remove Last in Linked List | Solution
+Remove at Index in Linked List | Question
+Remove at Index in Linked List | Solution
+Reverse a Linked List - Data Iterative | Question
+Reverse a Linked List - Data Iterative | Solution
+Reverse a Linked List - Pointer Iterative | Question
+Reverse a Linked List - Pointer Iterative | Solution
+Linked List to Stack Adapter | Question
+Linked List to Stack Adapter | Solution
+Linked List to Queue Adapter | Question
+Linked List to Queue Adapter | Solution
+Kth element from the end in Linked List | Question
+Kth element from the end in Linked List | Solution
+Middle of Linked List | Question
+Middle of a Linked List | Solution
+Merge two sorted Linked List | Question
+Merge two sorted Linked List | Solution
+Merge Sort a Linked List | Question
+Merge Sort a Linked List | Solution
+Remove duplicates in a sorted Linked List | Question
+Remove duplicates from a sorted Linked List | Solution
+Odd Even List | Question
+Odd Even List | Solution
+K Reverse in Linked List | Question
+K Reverse in Linked List| Solution
+Display Reverse Linked List - Recursive | Question
+Display Reverse Linked List - Recursive | Solution
+Reverse Linked List using Pointer - Recursive | Question
+Reverse a Linked List using Pointers - Recursive | Solution
+Queue to Stack Adapter - Pop Efficient | Question
+Queue to Stack Adapter - Pop Efficient | Solution
+Queue to Stack Adapter - Push Efficient | Question
+Queue to Stack Adapter - Push Efficient | Solution
+Stack to Queue Adapter - Remove Efficient | Question
+Stack to Queue Adapter - Remove Efficient | Solution
+Stack to Queue Adapter - Add Efficient | Question
+Stack to Queue Adapter - Add Efficient | Solution

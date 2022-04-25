@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PicturesListPage should not throw an error when the api call succeeds 1`] = `
+<body>
+  <div>
+    <nav
+      aria-label="breadcrumb"
+      class="MuiTypography-root MuiTypography-body1 MuiBreadcrumbs-root pictures-list-page__header css-63vwl1-MuiTypography-root-MuiBreadcrumbs-root"
+    >
+      <ol
+        class="MuiBreadcrumbs-ol css-4pdmu4-MuiBreadcrumbs-ol"
+      >
+        <li
+          class="MuiBreadcrumbs-li"
+        >
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1kgfegd-MuiTypography-root-MuiLink-root"
+            href="/pictures"
+          >
+            My Pictures
+          </a>
+        </li>
+        <li
+          aria-hidden="true"
+          class="MuiBreadcrumbs-separator css-1wuw8dw-MuiBreadcrumbs-separator"
+        >
+          /
+        </li>
+        <li
+          class="MuiBreadcrumbs-li"
+        >
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1kgfegd-MuiTypography-root-MuiLink-root"
+            href="/pictures/Z29vZ2xlZHJpdmU6"
+          >
+            googledrive
+          </a>
+        </li>
+      </ol>
+    </nav>
+  </div>
+</body>
+`;

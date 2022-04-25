@@ -1,0 +1,1 @@
+chrome.exe --remote-debugging-port=9788 --user-data-dir="C:\EV_Files\ChromeExistingBrowser"

@@ -1,0 +1,320 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Remote Explorer renders should match snapshot 1`] = `
+<div
+  className="app"
+  data-test="defaultLayout"
+>
+  <ErrorBoundary>
+    <AppHeader
+      fixed={true}
+      tag="header"
+    >
+      <Suspense
+        fallback={
+          <div
+            className="animated fadeIn pt-1 text-center"
+          >
+            Loading...
+          </div>
+        }
+      >
+        <lazy
+          onLogout={[Function]}
+        />
+      </Suspense>
+    </AppHeader>
+    <div
+      className="app-body"
+    >
+      <AppSidebar
+        compact={false}
+        display="lg"
+        fixed={true}
+        isOpen={false}
+        minimized={false}
+        offCanvas={false}
+        tag="div"
+      >
+        <AppSidebarHeader
+          tag="div"
+        />
+        <AppSidebarForm
+          tag="div"
+        />
+        <Suspense
+          fallback={
+            <div
+              className="animated fadeIn pt-1 text-center"
+            >
+              Loading...
+            </div>
+          }
+        >
+          <AppSidebarNav
+            isOpen={false}
+            navConfig={
+              Object {
+                "items": Array [
+                  Object {
+                    "icon": "icon-speedometer",
+                    "name": "Dashboard",
+                    "url": "/dashboard",
+                  },
+                  Object {
+                    "icon": "icon-note",
+                    "name": "Configs",
+                    "url": "/showconfig",
+                  },
+                  Object {
+                    "icon": "icon-screen-desktop",
+                    "name": "Explorer",
+                    "url": "/remoteExplorer",
+                  },
+                  Object {
+                    "icon": "icon-star",
+                    "name": "Backend",
+                    "url": "/rcloneBackend",
+                  },
+                  Object {
+                    "icon": "fa fa-hdd-o",
+                    "name": "Mounts",
+                    "url": "/mountDashboard",
+                  },
+                  Object {
+                    "icon": "icon-logout",
+                    "name": "Log Out",
+                    "url": "/login",
+                  },
+                  Object {
+                    "attributes": Object {
+                      "target": "_blank",
+                    },
+                    "class": "mt-auto",
+                    "icon": "cui-cog",
+                    "name": "",
+                    "url": "https://rclone.org/changelog",
+                    "variant": "success",
+                  },
+                ],
+              }
+            }
+            tag="nav"
+          />
+        </Suspense>
+        <AppSidebarFooter
+          tag="div"
+        />
+        <AppSidebarMinimizer
+          tag="button"
+          type="button"
+        />
+      </AppSidebar>
+      <main
+        className="main"
+      >
+        <AppBreadcrumb
+          appRoutes={
+            Array [
+              Object {
+                "exact": true,
+                "name": "Home",
+                "path": "/",
+              },
+              Object {
+                "component": Object {
+                  "$$typeof": Symbol(react.lazy),
+                  "_ctor": [Function],
+                  "_result": null,
+                  "_status": -1,
+                },
+                "name": "Edit Remote",
+                "path": "/newdrive/edit/:drivePrefix",
+              },
+              Object {
+                "component": Object {
+                  "$$typeof": Symbol(react.lazy),
+                  "_ctor": [Function],
+                  "_result": null,
+                  "_status": -1,
+                },
+                "exact": true,
+                "name": "New Remote",
+                "path": "/newdrive",
+              },
+              Object {
+                "component": Object {
+                  "$$typeof": Symbol(react.lazy),
+                  "_ctor": [Function],
+                  "_result": null,
+                  "_status": -1,
+                },
+                "exact": true,
+                "name": "Login Page",
+                "path": "/login",
+              },
+              Object {
+                "component": Object {
+                  "$$typeof": Symbol(react.lazy),
+                  "_ctor": [Function],
+                  "_result": null,
+                  "_status": -1,
+                },
+                "name": "Dashboard",
+                "path": "/dashboard",
+              },
+              Object {
+                "component": Object {
+                  "$$typeof": Symbol(react.lazy),
+                  "_ctor": [Function],
+                  "_result": null,
+                  "_status": -1,
+                },
+                "name": "Configs",
+                "path": "/showconfig",
+              },
+              Object {
+                "component": Object {
+                  "$$typeof": Symbol(react.lazy),
+                  "_ctor": [Function],
+                  "_result": null,
+                  "_status": -1,
+                },
+                "exact": true,
+                "name": "Explorer",
+                "path": "/remoteExplorer/:remoteName/:remotePath",
+              },
+              Object {
+                "component": Object {
+                  "$$typeof": Symbol(react.lazy),
+                  "_ctor": [Function],
+                  "_result": null,
+                  "_status": -1,
+                },
+                "name": "Explorer",
+                "path": "/remoteExplorer",
+              },
+              Object {
+                "component": Object {
+                  "$$typeof": Symbol(react.lazy),
+                  "_ctor": [Function],
+                  "_result": null,
+                  "_status": -1,
+                },
+                "name": "Rclone Backend",
+                "path": "/rcloneBackend",
+              },
+              Object {
+                "component": Object {
+                  "$$typeof": Symbol(react.lazy),
+                  "_ctor": [Function],
+                  "_result": null,
+                  "_status": -1,
+                },
+                "name": "Mount Dashboard",
+                "path": "/mountDashboard",
+              },
+            ]
+          }
+          className=""
+          tag="div"
+        />
+        <Container
+          fluid={true}
+          tag="div"
+        >
+          <Suspense
+            fallback={
+              <div
+                className="animated fadeIn pt-1 text-center"
+              >
+                Loading...
+              </div>
+            }
+          >
+            <Switch>
+              <Route
+                key="1"
+                name="Edit Remote"
+                path="/newdrive/edit/:drivePrefix"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                key="2"
+                name="New Remote"
+                path="/newdrive"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                key="3"
+                name="Login Page"
+                path="/login"
+                render={[Function]}
+              />
+              <Route
+                key="4"
+                name="Dashboard"
+                path="/dashboard"
+                render={[Function]}
+              />
+              <Route
+                key="5"
+                name="Configs"
+                path="/showconfig"
+                render={[Function]}
+              />
+              <Route
+                exact={true}
+                key="6"
+                name="Explorer"
+                path="/remoteExplorer/:remoteName/:remotePath"
+                render={[Function]}
+              />
+              <Route
+                key="7"
+                name="Explorer"
+                path="/remoteExplorer"
+                render={[Function]}
+              />
+              <Route
+                key="8"
+                name="Rclone Backend"
+                path="/rcloneBackend"
+                render={[Function]}
+              />
+              <Route
+                key="9"
+                name="Mount Dashboard"
+                path="/mountDashboard"
+                render={[Function]}
+              />
+              <Redirect
+                from="/"
+                to="/dashboard"
+              />
+            </Switch>
+          </Suspense>
+        </Container>
+      </main>
+    </div>
+    <AppFooter
+      fixed={false}
+      tag="footer"
+    >
+      <Suspense
+        fallback={
+          <div
+            className="animated fadeIn pt-1 text-center"
+          >
+            Loading...
+          </div>
+        }
+      >
+        <lazy />
+      </Suspense>
+    </AppFooter>
+  </ErrorBoundary>
+</div>
+`;
